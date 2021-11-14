@@ -1,0 +1,12 @@
+Decoding ./DLLs/msvcr71.dll...
+decoding done.
+looking for jmp eax ffe0
+0x7c34888f jmp eax
+0x7c359b1c jmp eax
+0x7c359b23 jmp eax
+0x7c359d73 jmp eax
+0x7c376c9a jmp eax
+0x7c376ca1 jmp eax
+0x7c376ca8 jmp eax
+0x7c380caf jmp eax
+0x7c3841cd jmp eax

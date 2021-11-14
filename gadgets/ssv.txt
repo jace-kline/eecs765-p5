@@ -1,0 +1,4143 @@
+Collecting gadgets from [1m[36m./DLLs/ssv.dll[0m
+Found [32m790[0m gadgets
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74104a[0m
+0x6d74104a:	lock mov eax, esi
+0x6d74104d:	pop esi
+0x6d74104e:	leave
+0x6d74104f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741050[0m
+0x6d741050:	push 3
+0x6d741052:	pop eax
+0x6d741053:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74109f[0m
+0x6d74109f:	add [esi+6dh], dh
+0x6d7410a2:	leave
+0x6d7410a3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7410ae[0m
+0x6d7410ae:	rep stosd
+0x6d7410b0:	mov eax, edx
+0x6d7410b2:	pop edi
+0x6d7410b3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7410d8[0m
+0x6d7410d8:	xor eax, eax
+0x6d7410da:	inc eax
+0x6d7410db:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7410ff[0m
+0x6d7410ff:	xor al, 5fh
+0x6d741101:	add [eax], eax
+0x6d741103:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74112a[0m
+0x6d74112a:	adc eax, iat_ord_OLEAUT32_dll_6
+0x6d74112f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741148[0m
+0x6d741148:	and dword ptr [esi+8], 0
+0x6d74114c:	pop esi
+0x6d74114d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7411d9[0m
+0x6d7411d9:	or dh, dh
+0x6d7411db:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7411f4[0m
+0x6d7411f4:	add dh, dh
+0x6d7411f6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74120c[0m
+0x6d74120c:	push esi
+0x6d74120e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74124e[0m
+0x6d74124e:	pop edi
+0x6d74124f:	mov eax, esi
+0x6d741251:	pop esi
+0x6d741252:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741291[0m
+0x6d741291:	xor eax, eax
+0x6d741293:	inc eax
+0x6d741294:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741295[0m
+0x6d741295:	xor eax, eax
+0x6d741297:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741305[0m
+0x6d741305:	pop edi
+0x6d741306:	mov eax, esi
+0x6d741308:	pop esi
+0x6d741309:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741366[0m
+0x6d741366:	dec esp
+0x6d741368:	mov eax, [ecx+8]
+0x6d74136b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74146d[0m
+0x6d74146d:	add eax, 10h
+0x6d741470:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74146f[0m
+0x6d74146f:	adc bl, al
+0x6d741471:	add eax, 8
+0x6d741474:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7414f0[0m
+0x6d7414f0:	and eax, -4
+0x6d7414f3:	pop esi
+0x6d7414f4:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741552[0m
+0x6d741552:	add [ebx], eax
+0x6d741554:	and eax, -4
+0x6d741557:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7415fe[0m
+0x6d7415fe:	add eax, [ebx]
+0x6d741600:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741668[0m
+0x6d741668:	pop edi
+0x6d741669:	pop esi
+0x6d74166a:	pop ebx
+0x6d74166b:	leave
+0x6d74166c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7417c3[0m
+0x6d7417c3:	add [eax], al
+0x6d7417c5:	add [eax], al
+0x6d7417c7:	leave
+0x6d7417c8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7417d6[0m
+0x6d7417d6:	setnz al
+0x6d7417d9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7417da[0m
+0x6d7417da:	mov eax, 80004005h
+0x6d7417df:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7417e0[0m
+0x6d7417e0:	mov eax, 80004005h
+0x6d7417e5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741a16[0m
+0x6d741a16:	add [edi+5eh], bl
+0x6d741a19:	pop ebx
+0x6d741a1a:	leave
+0x6d741a1b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741b8f[0m
+0x6d741b8f:	mov esp, 3b0000a6h
+0x6d741b94:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741bba[0m
+0x6d741bba:	adc [ebx], bh
+0x6d741bbc:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741ea8[0m
+0x6d741ea8:	or al, ch
+0x6d741eaa:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741ef7[0m
+0x6d741ef7:	sal byte ptr [ecx-18h], 0ah
+0x6d741efc:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742620[0m
+0x6d742620:	or al, 0
+0x6d742622:	xor eax, eax
+0x6d742624:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74265f[0m
+0x6d74265f:	pop edi
+0x6d742660:	mov eax, esi
+0x6d742662:	pop esi
+0x6d742663:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742697[0m
+0x6d742697:	and dword ptr [edi], 0
+0x6d74269a:	pop edi
+0x6d74269b:	pop esi
+0x6d74269c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742792[0m
+0x6d742792:	mov eax, esi
+0x6d742794:	pop esi
+0x6d742795:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7427a1[0m
+0x6d7427a1:	adc eax, iat_DeleteCriticalSection
+0x6d7427a6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7427a7[0m
+0x6d7427a7:	mov eax, ecx
+0x6d7427a9:	and dword ptr [eax], 0
+0x6d7427ac:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7427cc[0m
+0x6d7427cc:	mov byte ptr [esi+4], 0
+0x6d7427d0:	pop esi
+0x6d7427d1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7427e6[0m
+0x6d7427e6:	mov eax, esi
+0x6d7427e8:	pop esi
+0x6d7427e9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7427ef[0m
+0x6d7427ef:	adc eax, iat_InterlockedIncrement
+0x6d7427f4:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7427fa[0m
+0x6d7427fa:	adc eax, iat_InterlockedDecrement
+0x6d7427ff:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742a2d[0m
+0x6d742a2d:	inc ebx
+0x6d742a2e:	add [eax], eax
+0x6d742a30:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742ace[0m
+0x6d742ace:	pop esi
+0x6d742acf:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742b0b[0m
+0x6d742b0b:	stosd
+0x6d742b0c:	pop edi
+0x6d742b0d:	mov eax, esi
+0x6d742b0f:	pop esi
+0x6d742b10:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742d4d[0m
+0x6d742d4d:	adc eax, iat_DeleteCriticalSection
+0x6d742d52:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742f00[0m
+0x6d742f00:	add [eax], al
+0x6d742f02:	add [eax], al
+0x6d742f04:	leave
+0x6d742f05:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742f45[0m
+0x6d742f45:	add [eax], al
+0x6d742f47:	add [eax], al
+0x6d742f49:	leave
+0x6d742f4a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742f86[0m
+0x6d742f86:	add [eax], al
+0x6d742f88:	add [eax], al
+0x6d742f8a:	leave
+0x6d742f8b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742fae[0m
+0x6d742fae:	mov eax, esi
+0x6d742fb0:	pop esi
+0x6d742fb1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743008[0m
+0x6d743008:	mov eax, xref_6d74300eh
+0x6d74300d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743167[0m
+0x6d743167:	mov eax, esi
+0x6d743169:	pop esi
+0x6d74316a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7431a2[0m
+0x6d7431a2:	stosd
+0x6d7431a3:	pop edi
+0x6d7431a4:	mov eax, esi
+0x6d7431a6:	pop esi
+0x6d7431a7:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74380f[0m
+0x6d74380f:	or al, 0
+0x6d743811:	mov eax, [ecx+50h]
+0x6d743814:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743ec3[0m
+0x6d743ec3:	or eax, 80070000h
+0x6d743ec8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74410b[0m
+0x6d74410b:	mov eax, xref_6d744111h
+0x6d744110:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7443b8[0m
+0x6d7443b8:	push ecx
+0x6d7443b9:	or [esi-75h], bl
+0x6d7443bc:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744f1a[0m
+0x6d744f1a:	add [eax], al
+0x6d744f1c:	add [eax], al
+0x6d744f1e:	leave
+0x6d744f1f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745093[0m
+0x6d745093:	or al, 81h
+0x6d745095:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7450a7[0m
+0x6d7450a7:	or al, 81h
+0x6d7450a9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7450dc[0m
+0x6d7450dc:	xor dword ptr [ebp+6dh], 5eh
+0x6d7450e0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745282[0m
+0x6d745282:	and dword ptr [esi], -11h
+0x6d745285:	pop esi
+0x6d745286:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74528c[0m
+0x6d74528c:	dec esp
+0x6d74528d:	xor dword ptr [ebp+6dh], 5eh
+0x6d745291:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74539f[0m
+0x6d74539f:	inc ebp
+0x6d7453a0:	or al, 3bh
+0x6d7453a2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74543a[0m
+0x6d74543a:	add [ebx], edi
+0x6d74543c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745474[0m
+0x6d745474:	push eax
+0x6d745475:	adc [ebx], bh
+0x6d745477:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745819[0m
+0x6d745819:	adc al, 3bh
+0x6d74581b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7459d3[0m
+0x6d7459d3:	add bh, bh
+0x6d7459d5:	adc [ebx], edi
+0x6d7459d7:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7459ed[0m
+0x6d7459ed:	inc ebp
+0x6d7459ee:	adc [ebx], bh
+0x6d7459f0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7459fe[0m
+0x6d7459fe:	inc ebp
+0x6d7459ff:	and [ebx], bh
+0x6d745a01:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745a37[0m
+0x6d745a37:	add [ebx], bh
+0x6d745a39:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745aea[0m
+0x6d745aea:	inc ebp
+0x6d745aeb:	adc [ebx], bh
+0x6d745aed:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745b1d[0m
+0x6d745b1d:	sal byte ptr [ebp+2], 0c9h
+0x6d745b21:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745b33[0m
+0x6d745b33:	sbb eax, eax
+0x6d745b35:	inc eax
+0x6d745b36:	leave
+0x6d745b37:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745b3a[0m
+0x6d745b3a:	adc eax, iat_ord_OLEAUT32_dll_9
+0x6d745b3f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745c24[0m
+0x6d745c24:	xor eax, eax
+0x6d745c26:	pop edi
+0x6d745c27:	pop esi
+0x6d745c28:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745c71[0m
+0x6d745c71:	mov eax, xref_6d745c77h
+0x6d745c76:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745d1c[0m
+0x6d745d1c:	mov eax, xref_6d745d22h
+0x6d745d21:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745d56[0m
+0x6d745d56:	inc esi
+0x6d745d57:	adc [ebx+4*eax], al
+0x6d745d5a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745efd[0m
+0x6d745efd:	mov [eax+18h], ecx
+0x6d745f00:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745f9c[0m
+0x6d745f9c:	add [eax], al
+0x6d745f9e:	add [eax], al
+0x6d745fa0:	leave
+0x6d745fa1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746177[0m
+0x6d746177:	push ecx
+0x6d746178:	sbb [ebx], bh
+0x6d74617a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7461ef[0m
+0x6d7461ef:	inc ebp
+0x6d7461f0:	or [ebx], bh
+0x6d7461f2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746243[0m
+0x6d746243:	inc esi
+0x6d746244:	or al, 3bh
+0x6d746246:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7462b4[0m
+0x6d7462b4:	setz cl
+0x6d7462b7:	mov eax, ecx
+0x6d7462b9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7462d1[0m
+0x6d7462d1:	add [eax], eax
+0x6d7462d3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7462e8[0m
+0x6d7462e8:	add ds:[ebp-13h], dh
+0x6d7462ec:	pop esi
+0x6d7462ed:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746379[0m
+0x6d746379:	mov eax, xref_6d74637fh
+0x6d74637e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7463ee[0m
+0x6d7463ee:	add [ebx], bh
+0x6d7463f0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746465[0m
+0x6d746465:	or dword ptr [eax+8], -1
+0x6d746469:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7464d6[0m
+0x6d7464d6:	mov eax, xref_6d7464dch
+0x6d7464db:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747531[0m
+0x6d747531:	inc esi
+0x6d747532:	add al, 3bh
+0x6d747534:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7475f5[0m
+0x6d7475f5:	inc esi
+0x6d7475f6:	cmp al, -75h
+0x6d7475f8:	add [ebx], bh
+0x6d7475fa:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74763b[0m
+0x6d74763b:	add al, 3bh
+0x6d74763d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747651[0m
+0x6d747651:	or al, 3bh
+0x6d747653:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7476cd[0m
+0x6d7476cd:	push eax
+0x6d7476ce:	add al, 3bh
+0x6d7476d0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74798d[0m
+0x6d74798d:	leave
+0x6d74798e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74799b[0m
+0x6d74799b:	leave
+0x6d74799c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7479c5[0m
+0x6d7479c5:	push edx
+0x6d7479c6:	sbb cl, cl
+0x6d7479c8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747ae3[0m
+0x6d747ae3:	add [eax], al
+0x6d747ae5:	add [eax], al
+0x6d747ae7:	leave
+0x6d747ae8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747c9c[0m
+0x6d747c9c:	xchg esp, eax
+0x6d747c9d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747d6c[0m
+0x6d747d6c:	xor eax, eax
+0x6d747d6e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747f8b[0m
+0x6d747f8b:	add [eax], al
+0x6d747f8d:	add [eax], al
+0x6d747f8f:	leave
+0x6d747f90:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748031[0m
+0x6d748031:	add [eax], al
+0x6d748033:	add [eax], al
+0x6d748035:	leave
+0x6d748036:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7480db[0m
+0x6d7480db:	push ecx
+0x6d7480dc:	or al, 3bh
+0x6d7480de:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74817c[0m
+0x6d74817c:	add [eax], eax
+0x6d74817e:	add [ebx], bh
+0x6d748180:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748230[0m
+0x6d748230:	leave
+0x6d748231:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7482a7[0m
+0x6d7482a7:	sbb [edi+5eh], bl
+0x6d7482aa:	pop ebx
+0x6d7482ab:	leave
+0x6d7482ac:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7482de[0m
+0x6d7482de:	push eax
+0x6d7482df:	or al, 3bh
+0x6d7482e1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7482f6[0m
+0x6d7482f6:	xor dword ptr [ebp+6dh], 3bh
+0x6d7482fa:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748311[0m
+0x6d748311:	push ecx
+0x6d748312:	or al, 3bh
+0x6d748314:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74836b[0m
+0x6d74836b:	xor dword ptr [ebp+6dh], 3bh
+0x6d74836f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748396[0m
+0x6d748396:	add dh, [ecx+3bh+ecx]
+0x6d74839a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74839e[0m
+0x6d74839e:	add eax, 3b800040h
+0x6d7483a3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7485d0[0m
+0x6d7485d0:	inc ebp
+0x6d7485d1:	adc [ebx], bh
+0x6d7485d3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7486f3[0m
+0x6d7486f3:	push eax
+0x6d7486f4:	adc [ebx], bh
+0x6d7486f6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748735[0m
+0x6d748735:	adc [ebx], edi
+0x6d748737:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748fd1[0m
+0x6d748fd1:	push ecx
+0x6d748fd2:	or al, 3bh
+0x6d748fd4:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749524[0m
+0x6d749524:	mov eax, xref_6d74952ah
+0x6d749529:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7496f6[0m
+0x6d7496f6:	add [eax], al
+0x6d7496f8:	add [eax], al
+0x6d7496fa:	leave
+0x6d7496fb:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74974b[0m
+0x6d74974b:	mov eax, xref_6d749751h
+0x6d749750:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7498b4[0m
+0x6d7498b4:	add [eax], al
+0x6d7498b6:	add [eax], al
+0x6d7498b8:	leave
+0x6d7498b9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749b46[0m
+0x6d749b46:	and word ptr [ecx], 0
+0x6d749b4a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749b91[0m
+0x6d749b91:	add [eax], al
+0x6d749b93:	add [eax], al
+0x6d749b95:	leave
+0x6d749b96:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749bcc[0m
+0x6d749bcc:	or [eax], al
+0x6d749bcf:	pop edi
+0x6d749bd0:	pop esi
+0x6d749bd1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749c12[0m
+0x6d749c12:	pop edi
+0x6d749c13:	xor eax, eax
+0x6d749c15:	pop esi
+0x6d749c16:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749c62[0m
+0x6d749c62:	add [eax], al
+0x6d749c64:	add [eax], al
+0x6d749c66:	leave
+0x6d749c67:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749cee[0m
+0x6d749cee:	xor byte ptr [ebp+6dh], 3bh
+0x6d749cf2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749de6[0m
+0x6d749de6:	mov eax, xref_6d749dbch
+0x6d749deb:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749dec[0m
+0x6d749dec:	mov eax, xref_6d749df2h
+0x6d749df1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749f0e[0m
+0x6d749f0e:	mov [eax+0ch], ecx
+0x6d749f11:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749f7c[0m
+0x6d749f7c:	xor byte ptr [ebp+6dh], 3bh
+0x6d749f80:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749fec[0m
+0x6d749fec:	xor byte ptr [ebp+6dh], 3bh
+0x6d749ff0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a0e2[0m
+0x6d74a0e2:	xor byte ptr [ebp+6dh], 3bh
+0x6d74a0e6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a1ac[0m
+0x6d74a1ac:	mov eax, xref_6d74a1c0h
+0x6d74a1b1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a27c[0m
+0x6d74a27c:	add [eax], al
+0x6d74a27e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a2d7[0m
+0x6d74a2d7:	mov eax, [3b000000h]
+0x6d74a2dc:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a39a[0m
+0x6d74a39a:	xor eax, eax
+0x6d74a39c:	pop esi
+0x6d74a39d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a3a5[0m
+0x6d74a3a5:	pop esi
+0x6d74a3a6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a3cd[0m
+0x6d74a3cd:	pop esi
+0x6d74a3ce:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a4cb[0m
+0x6d74a4cb:	xor eax, eax
+0x6d74a4cd:	inc eax
+0x6d74a4ce:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a4cf[0m
+0x6d74a4cf:	xor eax, eax
+0x6d74a4d1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a65f[0m
+0x6d74a65f:	adc eax, iat_CoTaskMemFree
+0x6d74a664:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a799[0m
+0x6d74a799:	xor byte ptr [ebp+6dh], 3bh
+0x6d74a79d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74aa47[0m
+0x6d74aa47:	add eax, ss:[eax]
+0x6d74aa4a:	add [ebx], bh
+0x6d74aa4c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74aa60[0m
+0x6d74aa60:	xor byte ptr [ebp+6dh], 3bh
+0x6d74aa64:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ab01[0m
+0x6d74ab01:	xor byte ptr [ebp+6dh], 3bh
+0x6d74ab05:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ab19[0m
+0x6d74ab19:	xor byte ptr [ebp+6dh], 3bh
+0x6d74ab1d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ac16[0m
+0x6d74ac16:	pop ebp
+0x6d74ac17:	or [eax+3bh+edx], dh
+0x6d74ac1b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ad64[0m
+0x6d74ad64:	or eax, 80070000h
+0x6d74ad69:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ad7c[0m
+0x6d74ad7c:	and dword ptr [esi], 0
+0x6d74ad7f:	pop esi
+0x6d74ad80:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74af99[0m
+0x6d74af99:	mov eax, xref_6d74afabh
+0x6d74af9e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b146[0m
+0x6d74b146:	mov eax, xref_6d74b15ah
+0x6d74b14b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b328[0m
+0x6d74b328:	xor eax, eax
+0x6d74b32a:	pop esi
+0x6d74b32b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b33b[0m
+0x6d74b33b:	xor eax, eax
+0x6d74b33d:	inc eax
+0x6d74b33e:	pop esi
+0x6d74b33f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b35c[0m
+0x6d74b35c:	sub eax, 57h
+0x6d74b35f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b360[0m
+0x6d74b360:	sub eax, 37h
+0x6d74b363:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b364[0m
+0x6d74b364:	sub eax, 30h
+0x6d74b367:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b366[0m
+0x6d74b366:	xor bl, al
+0x6d74b368:	xor al, al
+0x6d74b36a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b36f[0m
+0x6d74b36f:	lock xor byte ptr [ebp+6dh], 59h
+0x6d74b374:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b3df[0m
+0x6d74b3df:	xor byte ptr [ebp+6dh], 3bh
+0x6d74b3e3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b44f[0m
+0x6d74b44f:	xor byte ptr [ebp+6dh], 3bh
+0x6d74b453:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b71b[0m
+0x6d74b71b:	xor byte ptr [ebp+6dh], 3bh
+0x6d74b71f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b7e9[0m
+0x6d74b7e9:	xor byte ptr [ebp+6dh], 3bh
+0x6d74b7ed:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b9ed[0m
+0x6d74b9ed:	mov eax, xref_6d74b9f3h
+0x6d74b9f2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bada[0m
+0x6d74bada:	add [eax], al
+0x6d74badc:	pop esi
+0x6d74badd:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bafa[0m
+0x6d74bafa:	mov [eax+2ch], ecx
+0x6d74bafd:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bb63[0m
+0x6d74bb63:	mov eax, xref_6d74bb69h
+0x6d74bb68:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bc33[0m
+0x6d74bc33:	dec esp
+0x6d74bc34:	xor dword ptr [ebp+6dh], 5eh
+0x6d74bc38:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bc8f[0m
+0x6d74bc8f:	mov eax, xref_6d74bc95h
+0x6d74bc94:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bd2b[0m
+0x6d74bd2b:	mov eax, xref_6d74bd31h
+0x6d74bd30:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bf4a[0m
+0x6d74bf4a:	add [eax], al
+0x6d74bf4c:	add [eax], al
+0x6d74bf4e:	leave
+0x6d74bf4f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c02e[0m
+0x6d74c02e:	mov eax, [ebp+8]
+0x6d74c031:	pop esi
+0x6d74c032:	pop ebp
+0x6d74c033:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c3a5[0m
+0x6d74c3a5:	pop edi
+0x6d74c3a6:	pop esi
+0x6d74c3a7:	pop ebx
+0x6d74c3a8:	leave
+0x6d74c3a9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c47b[0m
+0x6d74c47b:	pop esi
+0x6d74c47c:	pop ebx
+0x6d74c47d:	leave
+0x6d74c47e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c6fb[0m
+0x6d74c6fb:	add [eax], al
+0x6d74c6fd:	pop ecx
+0x6d74c6fe:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c757[0m
+0x6d74c757:	xor eax, eax
+0x6d74c759:	pop esi
+0x6d74c75a:	leave
+0x6d74c75b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c812[0m
+0x6d74c812:	or al, 5fh
+0x6d74c814:	pop esi
+0x6d74c815:	leave
+0x6d74c816:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c867[0m
+0x6d74c867:	xor eax, eax
+0x6d74c869:	inc eax
+0x6d74c86a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c86b[0m
+0x6d74c86b:	xor eax, eax
+0x6d74c86d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c929[0m
+0x6d74c929:	pop edi
+0x6d74c92a:	pop esi
+0x6d74c92b:	leave
+0x6d74c92c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ca69[0m
+0x6d74ca69:	pop ecx
+0x6d74ca6a:	pop edi
+0x6d74ca6b:	pop esi
+0x6d74ca6c:	leave
+0x6d74ca6d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ca9b[0m
+0x6d74ca9b:	mov eax, 80040111h
+0x6d74caa0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74cb57[0m
+0x6d74cb57:	pop edi
+0x6d74cb58:	mov eax, esi
+0x6d74cb5a:	pop esi
+0x6d74cb5b:	leave
+0x6d74cb5c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74cc0d[0m
+0x6d74cc0d:	pop edi
+0x6d74cc0e:	mov eax, esi
+0x6d74cc10:	pop esi
+0x6d74cc11:	leave
+0x6d74cc12:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74cc2b[0m
+0x6d74cc2b:	pop ecx
+0x6d74cc2c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74cc45[0m
+0x6d74cc45:	pop ecx
+0x6d74cc46:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74cea2[0m
+0x6d74cea2:	pop esi
+0x6d74cea3:	pop ebx
+0x6d74cea4:	pop edi
+0x6d74cea5:	leave
+0x6d74cea6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d039[0m
+0x6d74d039:	sbb bh, [edx]
+0x6d74d03b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d0f3[0m
+0x6d74d0f3:	add [eax], al
+0x6d74d0f5:	add [eax], al
+0x6d74d0f7:	leave
+0x6d74d0f8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d174[0m
+0x6d74d174:	inc edi
+0x6d74d175:	add [edi+3ah], eax
+0x6d74d178:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d193[0m
+0x6d74d193:	inc edi
+0x6d74d194:	add [edi+3ah], eax
+0x6d74d197:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d1a6[0m
+0x6d74d1a6:	inc edi
+0x6d74d1a7:	add [edi+3ah], eax
+0x6d74d1aa:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d1e1[0m
+0x6d74d1e1:	inc edx
+0x6d74d1e2:	add [edx+3ah], eax
+0x6d74d1e5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d479[0m
+0x6d74d479:	inc edi
+0x6d74d47a:	add [edi+3ah], eax
+0x6d74d47d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d499[0m
+0x6d74d499:	inc edi
+0x6d74d49a:	add [edi+3ah], eax
+0x6d74d49d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d4ac[0m
+0x6d74d4ac:	inc edi
+0x6d74d4ad:	add [edi+3ah], eax
+0x6d74d4b0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d4f3[0m
+0x6d74d4f3:	inc edi
+0x6d74d4f4:	add [edi+3ah], eax
+0x6d74d4f7:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d57c[0m
+0x6d74d57c:	pop edi
+0x6d74d57d:	pop esi
+0x6d74d57e:	pop ebx
+0x6d74d57f:	leave
+0x6d74d580:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d676[0m
+0x6d74d676:	add [edi+5eh], bl
+0x6d74d679:	pop ebx
+0x6d74d67a:	leave
+0x6d74d67b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d778[0m
+0x6d74d778:	enter 5e5fh, 5bh
+0x6d74d77c:	leave
+0x6d74d77d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d7f7[0m
+0x6d74d7f7:	inc edi
+0x6d74d7f8:	add [edi+3ah], eax
+0x6d74d7fb:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d806[0m
+0x6d74d806:	inc edi
+0x6d74d807:	add [edi+3ah], eax
+0x6d74d80a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d822[0m
+0x6d74d822:	inc edi
+0x6d74d823:	add [edi+3ah], eax
+0x6d74d826:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d83f[0m
+0x6d74d83f:	inc edi
+0x6d74d840:	add [edi+3ah], eax
+0x6d74d843:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d8c5[0m
+0x6d74d8c5:	xor eax, eax
+0x6d74d8c7:	pop esi
+0x6d74d8c8:	pop ebx
+0x6d74d8c9:	leave
+0x6d74d8ca:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d8f2[0m
+0x6d74d8f2:	add esp, 20h
+0x6d74d8f5:	pop ebp
+0x6d74d8f6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d91e[0m
+0x6d74d91e:	add esp, 20h
+0x6d74d921:	pop ebp
+0x6d74d922:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d94a[0m
+0x6d74d94a:	add esp, 20h
+0x6d74d94d:	pop ebp
+0x6d74d94e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d974[0m
+0x6d74d974:	add esp, 1ch
+0x6d74d977:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d99b[0m
+0x6d74d99b:	add esp, 18h
+0x6d74d99e:	pop ebp
+0x6d74d99f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74d9b7[0m
+0x6d74d9b7:	add esp, 14h
+0x6d74d9ba:	pop ebp
+0x6d74d9bb:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74da24[0m
+0x6d74da24:	xor eax, eax
+0x6d74da26:	leave
+0x6d74da27:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74da79[0m
+0x6d74da79:	pop ecx
+0x6d74da7a:	neg eax
+0x6d74da7c:	leave
+0x6d74da7d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74db7c[0m
+0x6d74db7c:	pop edi
+0x6d74db7d:	pop esi
+0x6d74db7e:	pop ebx
+0x6d74db7f:	leave
+0x6d74db80:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74dcf1[0m
+0x6d74dcf1:	inc edx
+0x6d74dcf2:	xchg ebx, eax
+0x6d74dcf3:	add [eax], al
+0x6d74dcf5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74dd22[0m
+0x6d74dd22:	mov [ebp-20h], ebx
+0x6d74dd25:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74dd4e[0m
+0x6d74dd4e:	mov eax, ecx
+0x6d74dd50:	leave
+0x6d74dd51:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74de42[0m
+0x6d74de42:	pop ebx
+0x6d74de43:	pop edi
+0x6d74de44:	pop esi
+0x6d74de45:	leave
+0x6d74de46:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74df35[0m
+0x6d74df35:	xor eax, eax
+0x6d74df37:	pop esi
+0x6d74df38:	leave
+0x6d74df39:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74e08e[0m
+0x6d74e08e:	mov eax, esi
+0x6d74e090:	pop esi
+0x6d74e091:	pop ebx
+0x6d74e092:	leave
+0x6d74e093:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74e192[0m
+0x6d74e192:	pop edi
+0x6d74e193:	pop esi
+0x6d74e194:	pop ebx
+0x6d74e195:	leave
+0x6d74e196:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74e203[0m
+0x6d74e203:	pop edi
+0x6d74e204:	mov eax, esi
+0x6d74e206:	pop esi
+0x6d74e207:	leave
+0x6d74e208:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74e26a[0m
+0x6d74e26a:	pop ecx
+0x6d74e26b:	leave
+0x6d74e26c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74e657[0m
+0x6d74e657:	pop edi
+0x6d74e658:	pop esi
+0x6d74e659:	pop ebx
+0x6d74e65a:	leave
+0x6d74e65b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74e87c[0m
+0x6d74e87c:	pop edi
+0x6d74e87d:	pop esi
+0x6d74e87e:	pop ebx
+0x6d74e87f:	leave
+0x6d74e880:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74eb28[0m
+0x6d74eb28:	div dword ptr [esp-75h+eax]
+0x6d74eb2c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74eb37[0m
+0x6d74eb37:	pop edi
+0x6d74eb38:	pop esi
+0x6d74eb39:	pop ebx
+0x6d74eb3a:	leave
+0x6d74eb3b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74edd4[0m
+0x6d74edd4:	pop sp
+0x6d74edd6:	add [edi+5eh], bl
+0x6d74edd9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f3d6[0m
+0x6d74f3d6:	add [eax], al
+0x6d74f3d8:	pop esi
+0x6d74f3d9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f405[0m
+0x6d74f405:	pop edi
+0x6d74f406:	mov eax, esi
+0x6d74f408:	pop esi
+0x6d74f409:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f5e0[0m
+0x6d74f5e0:	add [edi+5eh], bl
+0x6d74f5e3:	pop ebx
+0x6d74f5e4:	leave
+0x6d74f5e5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f7a1[0m
+0x6d74f7a1:	adc [ebx], bh
+0x6d74f7a3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f94c[0m
+0x6d74f94c:	sbb eax, 3bffff1dh
+0x6d74f951:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f9c8[0m
+0x6d74f9c8:	xor eax, 3bffffc7h
+0x6d74f9cd:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f9f3[0m
+0x6d74f9f3:	adc [ebx], bh
+0x6d74f9f5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74fa75[0m
+0x6d74fa75:	mov eax, xref_6d74fa7bh
+0x6d74fa7a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750064[0m
+0x6d750064:	add [eax], al
+0x6d750066:	add [ebx], bh
+0x6d750068:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750197[0m
+0x6d750197:	sal byte ptr [ebp+2], 5dh
+0x6d75019b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7501dd[0m
+0x6d7501dd:	shl byte ptr [ebx], 0c6h
+0x6d7501e0:	pop esi
+0x6d7501e1:	pop ebp
+0x6d7501e2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75020e[0m
+0x6d75020e:	add esp, 0ch
+0x6d750211:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750248[0m
+0x6d750248:	pop edi
+0x6d750249:	pop esi
+0x6d75024a:	mov eax, ebx
+0x6d75024c:	pop ebx
+0x6d75024d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750274[0m
+0x6d750274:	pop esi
+0x6d750275:	setnz al
+0x6d750278:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7503be[0m
+0x6d7503be:	add [edi+5eh], bl
+0x6d7503c1:	pop ebx
+0x6d7503c2:	leave
+0x6d7503c3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75046d[0m
+0x6d75046d:	pop eax
+0x6d75046e:	add esi, [esi+6dh]
+0x6d750471:	leave
+0x6d750472:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75047c[0m
+0x6d75047c:	xor byte ptr [ebp+6dh], 59h
+0x6d750480:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75050f[0m
+0x6d75050f:	pop esi
+0x6d750510:	pop edi
+0x6d750511:	leave
+0x6d750512:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750725[0m
+0x6d750725:	pop esi
+0x6d750726:	inc eax
+0x6d750727:	pop ebx
+0x6d750728:	leave
+0x6d750729:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750764[0m
+0x6d750764:	inc esi
+0x6d750765:	mov eax, esi
+0x6d750767:	pop esi
+0x6d750768:	leave
+0x6d750769:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750845[0m
+0x6d750845:	add.a16 [bx+si], al
+0x6d750848:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750857[0m
+0x6d750857:	add [eax], al
+0x6d750859:	pop ecx
+0x6d75085a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750898[0m
+0x6d750898:	mov esp, 0c96d7581h
+0x6d75089d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7508ab[0m
+0x6d7508ab:	and eax, 1
+0x6d7508ae:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7508cd[0m
+0x6d7508cd:	xor eax, eax
+0x6d7508cf:	leave
+0x6d7508d0:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7508d8[0m
+0x6d7508d8:	xor eax, eax
+0x6d7508da:	inc eax
+0x6d7508db:	leave
+0x6d7508dc:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750965[0m
+0x6d750965:	pop edi
+0x6d750966:	pop esi
+0x6d750967:	pop ebx
+0x6d750968:	pop ebp
+0x6d750969:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7509a2[0m
+0x6d7509a2:	or al, 5fh
+0x6d7509a4:	pop esi
+0x6d7509a5:	pop ebx
+0x6d7509a6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7509fe[0m
+0x6d7509fe:	pop esi
+0x6d7509ff:	mov eax, ecx
+0x6d750a01:	leave
+0x6d750a02:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750b1d[0m
+0x6d750b1d:	mov eax, edi
+0x6d750b1f:	pop edi
+0x6d750b20:	pop esi
+0x6d750b21:	leave
+0x6d750b22:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750bdb[0m
+0x6d750bdb:	mov eax, esi
+0x6d750bdd:	pop esi
+0x6d750bde:	leave
+0x6d750bdf:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750c26[0m
+0x6d750c26:	inc ebp
+0x6d750c27:	or al, 2bh
+0x6d750c29:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750d89[0m
+0x6d750d89:	mov eax, esi
+0x6d750d8b:	pop esi
+0x6d750d8c:	pop ebx
+0x6d750d8d:	leave
+0x6d750d8e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750f24[0m
+0x6d750f24:	xor eax, eax
+0x6d750f26:	pop esi
+0x6d750f27:	pop ebx
+0x6d750f28:	leave
+0x6d750f29:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75100f[0m
+0x6d75100f:	mov eax, esi
+0x6d751011:	pop esi
+0x6d751012:	leave
+0x6d751013:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7511ce[0m
+0x6d7511ce:	inc ebp
+0x6d7511cf:	or al, 3
+0x6d7511d1:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7512ba[0m
+0x6d7512ba:	pop edi
+0x6d7512bb:	pop esi
+0x6d7512bc:	leave
+0x6d7512bd:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75140a[0m
+0x6d75140a:	idiv byte ptr [ebx]
+0x6d75140c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d751464[0m
+0x6d751464:	inc eax
+0x6d751465:	pop edi
+0x6d751466:	pop esi
+0x6d751467:	pop ebx
+0x6d751468:	leave
+0x6d751469:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7515f9[0m
+0x6d7515f9:	pop edi
+0x6d7515fa:	mov eax, esi
+0x6d7515fc:	pop esi
+0x6d7515fd:	leave
+0x6d7515fe:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7516a2[0m
+0x6d7516a2:	mov eax, esi
+0x6d7516a4:	pop esi
+0x6d7516a5:	leave
+0x6d7516a6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d751781[0m
+0x6d751781:	mov eax, esi
+0x6d751783:	pop esi
+0x6d751784:	pop ebx
+0x6d751785:	leave
+0x6d751786:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75188f[0m
+0x6d75188f:	pop edi
+0x6d751890:	pop esi
+0x6d751891:	pop ebx
+0x6d751892:	leave
+0x6d751893:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d751b3f[0m
+0x6d751b3f:	mov eax, edi
+0x6d751b41:	pop edi
+0x6d751b42:	pop esi
+0x6d751b43:	leave
+0x6d751b44:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d751c77[0m
+0x6d751c77:	pop edi
+0x6d751c78:	pop esi
+0x6d751c79:	pop ebx
+0x6d751c7a:	leave
+0x6d751c7b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d751e62[0m
+0x6d751e62:	add [edi+5eh], bl
+0x6d751e65:	pop ebx
+0x6d751e66:	leave
+0x6d751e67:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d751e96[0m
+0x6d751e96:	mov [ebp-20h], edi
+0x6d751e99:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d751f68[0m
+0x6d751f68:	sbb al, 5fh
+0x6d751f6a:	pop esi
+0x6d751f6b:	leave
+0x6d751f6c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7520d9[0m
+0x6d7520d9:	inc eax
+0x6d7520da:	pop edi
+0x6d7520db:	pop esi
+0x6d7520dc:	pop ebx
+0x6d7520dd:	leave
+0x6d7520de:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752305[0m
+0x6d752305:	add [eax], al
+0x6d752307:	add [eax], al
+0x6d752309:	leave
+0x6d75230a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7524e1[0m
+0x6d7524e1:	add [eax], al
+0x6d7524e3:	add [eax], al
+0x6d7524e5:	leave
+0x6d7524e6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7524fd[0m
+0x6d7524fd:	add esp, 10h
+0x6d752500:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7527ce[0m
+0x6d7527ce:	inc esp
+0x6d7527cf:	xor byte ptr [ebp+6dh], 3bh
+0x6d7527d3:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75285d[0m
+0x6d75285d:	pop esi
+0x6d75285e:	pop edi
+0x6d75285f:	pop ebx
+0x6d752860:	leave
+0x6d752861:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752a1c[0m
+0x6d752a1c:	inc esp
+0x6d752a1d:	xor byte ptr [ebp+6dh], 3bh
+0x6d752a21:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752ab1[0m
+0x6d752ab1:	pop esi
+0x6d752ab2:	pop edi
+0x6d752ab3:	pop ebx
+0x6d752ab4:	leave
+0x6d752ab5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752ac8[0m
+0x6d752ac8:	xor eax, eax
+0x6d752aca:	leave
+0x6d752acb:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752afe[0m
+0x6d752afe:	pop ecx
+0x6d752aff:	pop ecx
+0x6d752b00:	pop edi
+0x6d752b01:	leave
+0x6d752b02:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752bb7[0m
+0x6d752bb7:	rol byte ptr [ebx], 23h
+0x6d752bba:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752bec[0m
+0x6d752bec:	rol byte ptr [ebx], 23h
+0x6d752bef:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752c21[0m
+0x6d752c21:	rol byte ptr [ebx], 23h
+0x6d752c24:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752c53[0m
+0x6d752c53:	rol byte ptr [ebx], 23h
+0x6d752c56:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752cd6[0m
+0x6d752cd6:	pop edi
+0x6d752cd7:	pop esi
+0x6d752cd8:	pop ebx
+0x6d752cd9:	leave
+0x6d752cda:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752d20[0m
+0x6d752d20:	xor eax, eax
+0x6d752d22:	pop ecx
+0x6d752d23:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752d2e[0m
+0x6d752d2e:	xor eax, eax
+0x6d752d30:	inc eax
+0x6d752d31:	pop ecx
+0x6d752d32:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752fa3[0m
+0x6d752fa3:	add ebx, [ebx+23h]
+0x6d752fa6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d752ff2[0m
+0x6d752ff2:	rol byte ptr [ebx], 23h
+0x6d752ff5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753034[0m
+0x6d753034:	rol byte ptr [ebx], 23h
+0x6d753037:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753085[0m
+0x6d753085:	rol byte ptr [ebx], 23h
+0x6d753088:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7530ba[0m
+0x6d7530ba:	rol byte ptr [ebx], 23h
+0x6d7530bd:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7530ef[0m
+0x6d7530ef:	rol byte ptr [ebx], 23h
+0x6d7530f2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753121[0m
+0x6d753121:	rol byte ptr [ebx], 23h
+0x6d753124:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753157[0m
+0x6d753157:	rol byte ptr [ebx], 23h
+0x6d75315a:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7531da[0m
+0x6d7531da:	rol byte ptr [ebx], 23h
+0x6d7531dd:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75320f[0m
+0x6d75320f:	rol byte ptr [ebx], 23h
+0x6d753212:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753244[0m
+0x6d753244:	rol byte ptr [ebx], 23h
+0x6d753247:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753276[0m
+0x6d753276:	rol byte ptr [ebx], 23h
+0x6d753279:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7532ac[0m
+0x6d7532ac:	rol byte ptr [ebx], 23h
+0x6d7532af:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7532e2[0m
+0x6d7532e2:	rol byte ptr [ebx], 23h
+0x6d7532e5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7533b5[0m
+0x6d7533b5:	rol byte ptr [ebx], 23h
+0x6d7533b8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7533e9[0m
+0x6d7533e9:	rol byte ptr [ebx], 23h
+0x6d7533ec:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75341e[0m
+0x6d75341e:	rol byte ptr [ebx], 23h
+0x6d753421:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7534c7[0m
+0x6d7534c7:	add [edi+5eh], bl
+0x6d7534ca:	pop ebx
+0x6d7534cb:	leave
+0x6d7534cc:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7537e2[0m
+0x6d7537e2:	pop edi
+0x6d7537e3:	pop esi
+0x6d7537e4:	pop ebx
+0x6d7537e5:	leave
+0x6d7537e6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75395e[0m
+0x6d75395e:	pop edi
+0x6d75395f:	pop esi
+0x6d753960:	pop ebx
+0x6d753961:	leave
+0x6d753962:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7539b2[0m
+0x6d7539b2:	adc [ebx], bh
+0x6d7539b4:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753aa5[0m
+0x6d753aa5:	adc [ebx], bh
+0x6d753aa7:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753ac1[0m
+0x6d753ac1:	pop ecx
+0x6d753ac2:	pop esi
+0x6d753ac3:	pop ebx
+0x6d753ac4:	leave
+0x6d753ac5:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753c47[0m
+0x6d753c47:	inc eax
+0x6d753c48:	pop edi
+0x6d753c49:	pop esi
+0x6d753c4a:	pop ebx
+0x6d753c4b:	leave
+0x6d753c4c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753cfb[0m
+0x6d753cfb:	pop ecx
+0x6d753cfc:	pop ecx
+0x6d753cfd:	pop esi
+0x6d753cfe:	pop edi
+0x6d753cff:	leave
+0x6d753d00:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753e20[0m
+0x6d753e20:	inc eax
+0x6d753e21:	pop edi
+0x6d753e22:	pop esi
+0x6d753e23:	pop ebx
+0x6d753e24:	leave
+0x6d753e25:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753ea1[0m
+0x6d753ea1:	pop ecx
+0x6d753ea2:	pop edi
+0x6d753ea3:	leave
+0x6d753ea4:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754446[0m
+0x6d754446:	mov [esi], ebp
+0x6d754448:	pop esi
+0x6d754449:	pop ebp
+0x6d75444a:	pop ebx
+0x6d75444b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7546d6[0m
+0x6d7546d6:	add es:[eax], al
+0x6d7546d9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7546f7[0m
+0x6d7546f7:	mov eax, esi
+0x6d7546f9:	pop esi
+0x6d7546fa:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7548e9[0m
+0x6d7548e9:	add [edi+5eh], bl
+0x6d7548ec:	pop ebx
+0x6d7548ed:	leave
+0x6d7548ee:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754aaa[0m
+0x6d754aaa:	adc [ebx], bh
+0x6d754aac:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754cfc[0m
+0x6d754cfc:	adc [ebx], bh
+0x6d754cfe:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754e6d[0m
+0x6d754e6d:	mov eax, xref_6d754e73h
+0x6d754e72:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755503[0m
+0x6d755503:	add es:[edi+5eh], bl
+0x6d755507:	pop ebx
+0x6d755508:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75577f[0m
+0x6d75577f:	add [eax], al
+0x6d755781:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75579f[0m
+0x6d75579f:	mov eax, esi
+0x6d7557a1:	pop esi
+0x6d7557a2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755991[0m
+0x6d755991:	add [edi+5eh], bl
+0x6d755994:	pop ebx
+0x6d755995:	leave
+0x6d755996:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755b52[0m
+0x6d755b52:	adc [ebx], bh
+0x6d755b54:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755da4[0m
+0x6d755da4:	adc [ebx], bh
+0x6d755da6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755ed4[0m
+0x6d755ed4:	mov eax, xref_6d755edah
+0x6d755ed9:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7562ea[0m
+0x6d7562ea:	movsd
+0x6d7562eb:	movsb
+0x6d7562ec:	pop edi
+0x6d7562ed:	pop esi
+0x6d7562ee:	pop ebp
+0x6d7562ef:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756314[0m
+0x6d756314:	add esp, 20h
+0x6d756317:	pop ebp
+0x6d756318:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756408[0m
+0x6d756408:	or al, 5fh
+0x6d75640a:	pop esi
+0x6d75640b:	pop ebx
+0x6d75640c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7564b9[0m
+0x6d7564b9:	or al, 5fh
+0x6d7564bb:	pop esi
+0x6d7564bc:	pop ebx
+0x6d7564bd:	pop ebp
+0x6d7564be:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7564e9[0m
+0x6d7564e9:	mov al, 1
+0x6d7564eb:	pop esi
+0x6d7564ec:	pop edi
+0x6d7564ed:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75650f[0m
+0x6d75650f:	mov bl, 1
+0x6d756511:	mov al, bl
+0x6d756513:	pop ebx
+0x6d756514:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756574[0m
+0x6d756574:	ror byte ptr [edi], 9dh
+0x6d756577:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7565c9[0m
+0x6d7565c9:	adc eax, iat_FreeLibrary
+0x6d7565ce:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7565d4[0m
+0x6d7565d4:	add [eax], al
+0x6d7565d6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75661b[0m
+0x6d75661b:	or al, 0b0h
+0x6d75661d:	add ecx, ecx
+0x6d75661f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756620[0m
+0x6d756620:	xor al, al
+0x6d756622:	leave
+0x6d756623:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756665[0m
+0x6d756665:	setz al
+0x6d756668:	leave
+0x6d756669:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7566c2[0m
+0x6d7566c2:	add ebp, 78h
+0x6d7566c5:	leave
+0x6d7566c6:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7566db[0m
+0x6d7566db:	add esi, [esi+6dh]
+0x6d7566de:	leave
+0x6d7566df:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756729[0m
+0x6d756729:	add esi, [esi+6dh]
+0x6d75672c:	leave
+0x6d75672d:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7567a7[0m
+0x6d7567a7:	pop edi
+0x6d7567a8:	pop ebx
+0x6d7567a9:	leave
+0x6d7567aa:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7568f5[0m
+0x6d7568f5:	inc eax
+0x6d7568f6:	pop edi
+0x6d7568f7:	pop esi
+0x6d7568f8:	pop ebx
+0x6d7568f9:	leave
+0x6d7568fa:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756931[0m
+0x6d756931:	mov eax, esi
+0x6d756933:	pop esi
+0x6d756934:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756a8a[0m
+0x6d756a8a:	pop esi
+0x6d756a8b:	mov eax, ebx
+0x6d756a8d:	pop ebx
+0x6d756a8e:	leave
+0x6d756a8f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756b61[0m
+0x6d756b61:	mov eax, esi
+0x6d756b63:	pop esi
+0x6d756b64:	pop ebx
+0x6d756b65:	leave
+0x6d756b66:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756c54[0m
+0x6d756c54:	pop edi
+0x6d756c55:	pop esi
+0x6d756c56:	pop ebx
+0x6d756c57:	leave
+0x6d756c58:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756c71[0m
+0x6d756c71:	adc eax, iat_HeapFree
+0x6d756c76:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756c79[0m
+0x6d756c79:	adc eax, xref_6d760378h
+0x6d756c7e:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756c8f[0m
+0x6d756c8f:	add esi, [esi+6dh]
+0x6d756c92:	pop ebx
+0x6d756c93:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756d2f[0m
+0x6d756d2f:	pop edi
+0x6d756d30:	pop esi
+0x6d756d31:	pop ebp
+0x6d756d32:	pop ebx
+0x6d756d33:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756d7f[0m
+0x6d756d7f:	and al, 5eh
+0x6d756d81:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756da4[0m
+0x6d756da4:	xor eax, eax
+0x6d756da6:	pop esi
+0x6d756da7:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756de9[0m
+0x6d756de9:	mov eax, esi
+0x6d756deb:	pop edi
+0x6d756dec:	pop esi
+0x6d756ded:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756e21[0m
+0x6d756e21:	and dword ptr [esi+8], 0
+0x6d756e25:	pop esi
+0x6d756e26:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756e64[0m
+0x6d756e64:	mov eax, esi
+0x6d756e66:	pop esi
+0x6d756e67:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756f72[0m
+0x6d756f72:	add ebp, 78h
+0x6d756f75:	leave
+0x6d756f76:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756fb3[0m
+0x6d756fb3:	and dword ptr [esi], 0
+0x6d756fb6:	pop ebx
+0x6d756fb7:	pop esi
+0x6d756fb8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756ff4[0m
+0x6d756ff4:	pop edi
+0x6d756ff5:	mov eax, esi
+0x6d756ff7:	pop esi
+0x6d756ff8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757031[0m
+0x6d757031:	mov [0], eax
+0x6d757036:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757042[0m
+0x6d757042:	pop edi
+0x6d757043:	pop esi
+0x6d757044:	pop ebx
+0x6d757045:	leave
+0x6d757046:	push ecx
+0x6d757047:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7570ad[0m
+0x6d7570ad:	add [eax], al
+0x6d7570af:	mov eax, [ebp-24h]
+0x6d7570b2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75713e[0m
+0x6d75713e:	add [eax], al
+0x6d757140:	add esp, 0ch
+0x6d757143:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757150[0m
+0x6d757150:	sal bh, 0d8h
+0x6d757153:	pop ecx
+0x6d757154:	dec eax
+0x6d757155:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75715a[0m
+0x6d75715a:	or dh, dh
+0x6d75715c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757175[0m
+0x6d757175:	push esi
+0x6d757177:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75718b[0m
+0x6d75718b:	add eax, [eax]
+0x6d75718d:	add dh, dh
+0x6d75718f:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7571c9[0m
+0x6d7571c9:	lea ebp, [esp+0ch]
+0x6d7571cd:	push eax
+0x6d7571ce:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7571f0[0m
+0x6d7571f0:	xchg esp, eax
+0x6d7571f1:	mov eax, [eax]
+0x6d7571f3:	push eax
+0x6d7571f4:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757218[0m
+0x6d757218:	mov eax, [eax+4]
+0x6d75721b:	push eax
+0x6d75721c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757304[0m
+0x6d757304:	pop esp
+0x6d757305:	and al, 18h
+0x6d757307:	leave
+0x6d757308:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757494[0m
+0x6d757494:	add [eax], al
+0x6d757496:	add [ecx+59h], bl
+0x6d757499:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7574c8[0m
+0x6d7574c8:	xor eax, eax
+0x6d7574ca:	inc eax
+0x6d7574cb:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757535[0m
+0x6d757535:	xor eax, eax
+0x6d757537:	inc eax
+0x6d757538:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757579[0m
+0x6d757579:	xor eax, eax
+0x6d75757b:	inc eax
+0x6d75757c:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7575f9[0m
+0x6d7575f9:	pop esi
+0x6d7575fa:	leave
+0x6d7575fb:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757652[0m
+0x6d757652:	pop ecx
+0x6d757653:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7577ff[0m
+0x6d7577ff:	pop ecx
+0x6d757800:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757a36[0m
+0x6d757a36:	pop ecx
+0x6d757a37:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757a4a[0m
+0x6d757a4a:	pop ecx
+0x6d757a4b:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757cd1[0m
+0x6d757cd1:	pop ecx
+0x6d757cd2:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757ce7[0m
+0x6d757ce7:	pop ecx
+0x6d757ce8:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757cfd[0m
+0x6d757cfd:	pop ecx
+0x6d757cfe:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757d13[0m
+0x6d757d13:	pop ecx
+0x6d757d14:	ret
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74115b[0m
+0x6d74115b:	mov ecx, [ecx]
+0x6d74115d:	lea eax, [ecx+2*eax]
+0x6d741160:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7411ce[0m
+0x6d7411ce:	pop edi
+0x6d7411cf:	xor eax, eax
+0x6d7411d1:	pop esi
+0x6d7411d2:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741218[0m
+0x6d741218:	pop ecx
+0x6d741219:	mov eax, esi
+0x6d74121b:	pop esi
+0x6d74121c:	pop ebx
+0x6d74121d:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7412c8[0m
+0x6d7412c8:	xor eax, eax
+0x6d7412ca:	pop esi
+0x6d7412cb:	pop ebp
+0x6d7412cc:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741317[0m
+0x6d741317:	mov eax, esi
+0x6d741319:	pop esi
+0x6d74131a:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741347[0m
+0x6d741347:	mov eax, esi
+0x6d741349:	pop esi
+0x6d74134a:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7413c2[0m
+0x6d7413c2:	xor eax, eax
+0x6d7413c4:	pop esi
+0x6d7413c5:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741401[0m
+0x6d741401:	or [eax], al
+0x6d741403:	pop esi
+0x6d741404:	pop ebx
+0x6d741405:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741435[0m
+0x6d741435:	xor eax, eax
+0x6d741437:	inc eax
+0x6d741438:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74145d[0m
+0x6d74145d:	pop esi
+0x6d74145e:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7414a7[0m
+0x6d7414a7:	or ah, [esi-75h]
+0x6d7414aa:	cmp [ebx], al
+0x6d7414ac:	ret 8566h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7414bd[0m
+0x6d7414bd:	or ah, [esi-75h]
+0x6d7414c0:	cmp [ebx], al
+0x6d7414c2:	ret 8566h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7414c7[0m
+0x6d7414c7:	mul byte ptr [esi-75h]
+0x6d7414ca:	cmp [ebx], al
+0x6d7414cc:	ret 8566h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7414dd[0m
+0x6d7414dd:	rol byte ptr [esi], 0ebh
+0x6d7414e0:	add al, [ebx]
+0x6d7414e2:	ret 8b66h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7414e5[0m
+0x6d7414e5:	or [ebx], al
+0x6d7414e7:	ret 8566h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7417c9[0m
+0x6d7417c9:	xor eax, eax
+0x6d7417cb:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741820[0m
+0x6d741820:	add [eax], al
+0x6d741822:	xor eax, eax
+0x6d741824:	inc eax
+0x6d741825:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741c26[0m
+0x6d741c26:	add [edi+5eh], bl
+0x6d741c29:	pop ebx
+0x6d741c2a:	leave
+0x6d741c2b:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d741e6b[0m
+0x6d741e6b:	add [edi+5eh], bl
+0x6d741e6e:	pop ebx
+0x6d741e6f:	leave
+0x6d741e70:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74261b[0m
+0x6d74261b:	pop edi
+0x6d74261c:	pop esi
+0x6d74261d:	pop ebx
+0x6d74261e:	leave
+0x6d74261f:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742741[0m
+0x6d742741:	pop ebp
+0x6d742742:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74275c[0m
+0x6d74275c:	xor eax, eax
+0x6d74275e:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742776[0m
+0x6d742776:	pop ecx
+0x6d742777:	mov eax, esi
+0x6d742779:	pop esi
+0x6d74277a:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742841[0m
+0x6d742841:	mov eax, edi
+0x6d742843:	pop edi
+0x6d742844:	pop esi
+0x6d742845:	pop ebx
+0x6d742846:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742849[0m
+0x6d742849:	mov eax, 80004005h
+0x6d74284e:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74287d[0m
+0x6d74287d:	pop ecx
+0x6d74287e:	mov eax, esi
+0x6d742880:	pop esi
+0x6d742881:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742953[0m
+0x6d742953:	or [edi+5eh], bl
+0x6d742956:	pop ebx
+0x6d742957:	leave
+0x6d742958:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7429a6[0m
+0x6d7429a6:	pop edi
+0x6d7429a7:	pop esi
+0x6d7429a8:	leave
+0x6d7429a9:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742a1b[0m
+0x6d742a1b:	mov eax, ebx
+0x6d742a1d:	pop ebx
+0x6d742a1e:	pop edi
+0x6d742a1f:	leave
+0x6d742a20:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742a67[0m
+0x6d742a67:	mov eax, edx
+0x6d742a69:	pop edi
+0x6d742a6a:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742bdc[0m
+0x6d742bdc:	add [edi+5eh], bl
+0x6d742bdf:	pop ebx
+0x6d742be0:	leave
+0x6d742be1:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742bf9[0m
+0x6d742bf9:	mov eax, esi
+0x6d742bfb:	pop esi
+0x6d742bfc:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742c08[0m
+0x6d742c08:	adc eax, iat_InterlockedIncrement
+0x6d742c0d:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742c33[0m
+0x6d742c33:	mov eax, edi
+0x6d742c35:	pop edi
+0x6d742c36:	pop esi
+0x6d742c37:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742c4c[0m
+0x6d742c4c:	add eax, [eax]
+0x6d742c4e:	add [eax], al
+0x6d742c50:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742cb8[0m
+0x6d742cb8:	xchg esp, eax
+0x6d742cb9:	ret 0d285h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742d10[0m
+0x6d742d10:	sbb byte ptr [edi+5eh], 5bh
+0x6d742d14:	pop ebp
+0x6d742d15:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742d2d[0m
+0x6d742d2d:	pop ecx
+0x6d742d2e:	mov eax, esi
+0x6d742d30:	pop esi
+0x6d742d31:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d742e1e[0m
+0x6d742e1e:	mov eax, ebx
+0x6d742e20:	pop ebx
+0x6d742e21:	leave
+0x6d742e22:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743046[0m
+0x6d743046:	add [eax], al
+0x6d743048:	add [ebx-37h], bl
+0x6d74304b:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74309c[0m
+0x6d74309c:	pop edi
+0x6d74309d:	pop esi
+0x6d74309e:	pop ebx
+0x6d74309f:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743203[0m
+0x6d743203:	mov eax, esi
+0x6d743205:	pop esi
+0x6d743206:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743237[0m
+0x6d743237:	pop ebp
+0x6d743238:	ret 1ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74324a[0m
+0x6d74324a:	add [eax], al
+0x6d74324c:	xor eax, eax
+0x6d74324e:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74327a[0m
+0x6d74327a:	mov eax, edi
+0x6d74327d:	pop edi
+0x6d74327e:	pop esi
+0x6d74327f:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743290[0m
+0x6d743290:	xor [eax+7ch], ecx
+0x6d743293:	xor eax, eax
+0x6d743295:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7432b5[0m
+0x6d7432b5:	mov [eax], cx
+0x6d7432b8:	xor eax, eax
+0x6d7432ba:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7432d6[0m
+0x6d7432d6:	mov [eax], ecx
+0x6d7432d8:	xor eax, eax
+0x6d7432da:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7432f6[0m
+0x6d7432f6:	mov [eax], ecx
+0x6d7432f8:	xor eax, eax
+0x6d7432fa:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743316[0m
+0x6d743316:	mov [eax], ecx
+0x6d743318:	xor eax, eax
+0x6d74331a:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74333a[0m
+0x6d74333a:	mov [eax], cx
+0x6d74333d:	xor eax, eax
+0x6d74333f:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74335f[0m
+0x6d74335f:	mov [eax], cx
+0x6d743362:	xor eax, eax
+0x6d743364:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743384[0m
+0x6d743384:	mov [eax], cx
+0x6d743387:	xor eax, eax
+0x6d743389:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743391[0m
+0x6d743391:	and dword ptr [eax], 0
+0x6d743394:	xor eax, eax
+0x6d743396:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7433a9[0m
+0x6d7433a9:	and dword ptr [eax], 0
+0x6d7433ac:	xor eax, eax
+0x6d7433ae:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7433ca[0m
+0x6d7433ca:	mov [eax], ecx
+0x6d7433cc:	xor eax, eax
+0x6d7433ce:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7433dd[0m
+0x6d7433dd:	add [eax], al
+0x6d7433df:	xor eax, eax
+0x6d7433e1:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7433fd[0m
+0x6d7433fd:	mov [eax], ecx
+0x6d7433ff:	xor eax, eax
+0x6d743401:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743416[0m
+0x6d743416:	xor [eax+7ch], ecx
+0x6d743419:	xor eax, eax
+0x6d74341b:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74343b[0m
+0x6d74343b:	mov [eax], cx
+0x6d74343e:	xor eax, eax
+0x6d743440:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743455[0m
+0x6d743455:	xor [eax+7ch], ecx
+0x6d743458:	xor eax, eax
+0x6d74345a:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74347a[0m
+0x6d74347a:	mov [eax], cx
+0x6d74347d:	xor eax, eax
+0x6d74347f:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743493[0m
+0x6d743493:	add [eax], al
+0x6d743495:	xor eax, eax
+0x6d743497:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7434cd[0m
+0x6d7434cd:	pop edi
+0x6d7434ce:	mov eax, esi
+0x6d7434d0:	pop esi
+0x6d7434d1:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7434ed[0m
+0x6d7434ed:	mov [eax], ecx
+0x6d7434ef:	xor eax, eax
+0x6d7434f1:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743505[0m
+0x6d743505:	xor eax, eax
+0x6d743507:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74350a[0m
+0x6d74350a:	mov eax, 80004001h
+0x6d74350f:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743512[0m
+0x6d743512:	mov eax, 80004001h
+0x6d743517:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743525[0m
+0x6d743525:	mov [ecx], eax
+0x6d743527:	xor eax, eax
+0x6d743529:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743534[0m
+0x6d743534:	xor eax, eax
+0x6d743536:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743541[0m
+0x6d743541:	xor eax, eax
+0x6d743543:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743550[0m
+0x6d743550:	not eax
+0x6d743552:	and eax, 1
+0x6d743555:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743562[0m
+0x6d743562:	not eax
+0x6d743564:	and eax, 1
+0x6d743567:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743594[0m
+0x6d743594:	xor eax, eax
+0x6d743596:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7435a3[0m
+0x6d7435a3:	not eax
+0x6d7435a5:	and eax, 1
+0x6d7435a8:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7435bc[0m
+0x6d7435bc:	xor [eax+6ch], ecx
+0x6d7435bf:	xor eax, eax
+0x6d7435c1:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74368f[0m
+0x6d74368f:	xor eax, eax
+0x6d743691:	pop edi
+0x6d743692:	pop esi
+0x6d743693:	leave
+0x6d743694:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7436fc[0m
+0x6d7436fc:	xor eax, eax
+0x6d7436fe:	pop esi
+0x6d7436ff:	leave
+0x6d743700:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743718[0m
+0x6d743718:	xor eax, eax
+0x6d74371a:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743732[0m
+0x6d743732:	xor eax, eax
+0x6d743734:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743735[0m
+0x6d743735:	or al, 0
+0x6d743737:	xor eax, eax
+0x6d743739:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74373a[0m
+0x6d74373a:	adc al, 0
+0x6d74373c:	xor eax, eax
+0x6d74373e:	inc eax
+0x6d74373f:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743753[0m
+0x6d743753:	xor [eax+68h], ecx
+0x6d743756:	xor eax, eax
+0x6d743758:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743759[0m
+0x6d743759:	or [eax], al
+0x6d74375b:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74375a[0m
+0x6d74375a:	add dl, al
+0x6d74375c:	or al, 0
+0x6d74375e:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74375d[0m
+0x6d74375d:	add dl, al
+0x6d74375f:	or [eax], al
+0x6d743761:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743764[0m
+0x6d743764:	mov eax, 80004001h
+0x6d743769:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743780[0m
+0x6d743780:	xor [eax+64h], ecx
+0x6d743783:	xor eax, eax
+0x6d743785:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7437b8[0m
+0x6d7437b8:	mov eax, 80004005h
+0x6d7437bd:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7437d3[0m
+0x6d7437d3:	add [eax], al
+0x6d7437d5:	xor eax, eax
+0x6d7437d7:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743952[0m
+0x6d743952:	mov eax, 80040004h
+0x6d743957:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74396b[0m
+0x6d74396b:	xor eax, eax
+0x6d74396d:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7439a7[0m
+0x6d7439a7:	mov eax, [ebp+8]
+0x6d7439aa:	pop ebp
+0x6d7439ab:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7439e9[0m
+0x6d7439e9:	mov [eax+8], ecx
+0x6d7439ec:	xor eax, eax
+0x6d7439ee:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743a26[0m
+0x6d743a26:	mov eax, [ebp+8]
+0x6d743a29:	pop ebp
+0x6d743a2a:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743b47[0m
+0x6d743b47:	add [eax], al
+0x6d743b49:	add [eax], al
+0x6d743b4b:	leave
+0x6d743b4c:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743b84[0m
+0x6d743b84:	mov eax, esi
+0x6d743b86:	pop esi
+0x6d743b87:	leave
+0x6d743b88:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743c27[0m
+0x6d743c27:	pop esi
+0x6d743c28:	pop edi
+0x6d743c29:	pop ebx
+0x6d743c2a:	pop ebp
+0x6d743c2b:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743c75[0m
+0x6d743c75:	xor eax, eax
+0x6d743c77:	pop esi
+0x6d743c78:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743d48[0m
+0x6d743d48:	add [eax], al
+0x6d743d4a:	add [eax], al
+0x6d743d4c:	leave
+0x6d743d4d:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743eac[0m
+0x6d743eac:	xchg esp, eax
+0x6d743ead:	pop edi
+0x6d743eae:	pop esi
+0x6d743eaf:	pop ebx
+0x6d743eb0:	leave
+0x6d743eb1:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743f1f[0m
+0x6d743f1f:	mov eax, edi
+0x6d743f21:	pop edi
+0x6d743f22:	pop esi
+0x6d743f23:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743f5d[0m
+0x6d743f5d:	adc [esi+5bh], ebx
+0x6d743f60:	pop edi
+0x6d743f61:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743f81[0m
+0x6d743f81:	sub eax, 3b48468bh
+0x6d743f86:	ret 1a74h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743fad[0m
+0x6d743fad:	xor eax, eax
+0x6d743faf:	pop edi
+0x6d743fb0:	pop esi
+0x6d743fb1:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743fdf[0m
+0x6d743fdf:	xor eax, eax
+0x6d743fe1:	pop esi
+0x6d743fe2:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d743ffe[0m
+0x6d743ffe:	xor eax, eax
+0x6d744000:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744062[0m
+0x6d744062:	sbb al, 5fh
+0x6d744064:	xor eax, eax
+0x6d744066:	pop esi
+0x6d744067:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744083[0m
+0x6d744083:	xor eax, eax
+0x6d744085:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7440a6[0m
+0x6d7440a6:	mov [ecx], eax
+0x6d7440a8:	xor eax, eax
+0x6d7440aa:	pop ebp
+0x6d7440ab:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744209[0m
+0x6d744209:	or [edi+5eh], bl
+0x6d74420c:	pop ebx
+0x6d74420d:	leave
+0x6d74420e:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744260[0m
+0x6d744260:	add [eax], al
+0x6d744262:	add [eax], al
+0x6d744264:	leave
+0x6d744265:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7442b8[0m
+0x6d7442b8:	add [eax], al
+0x6d7442ba:	add [eax], al
+0x6d7442bc:	leave
+0x6d7442bd:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74433e[0m
+0x6d74433e:	add [eax], al
+0x6d744340:	add [eax], al
+0x6d744342:	leave
+0x6d744343:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7443c5[0m
+0x6d7443c5:	add [eax], al
+0x6d7443c7:	add [eax], al
+0x6d7443c9:	leave
+0x6d7443ca:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7443f4[0m
+0x6d7443f4:	push ecx
+0x6d7443f5:	xor eax, eax
+0x6d7443f8:	pop esi
+0x6d7443f9:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744454[0m
+0x6d744454:	add [eax], al
+0x6d744456:	add [eax], al
+0x6d744458:	leave
+0x6d744459:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744477[0m
+0x6d744477:	xor eax, eax
+0x6d744479:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744497[0m
+0x6d744497:	xor eax, eax
+0x6d744499:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7444bd[0m
+0x6d7444bd:	xor eax, eax
+0x6d7444bf:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7444e4[0m
+0x6d7444e4:	xor eax, eax
+0x6d7444e6:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74450b[0m
+0x6d74450b:	xor eax, eax
+0x6d74450d:	pop esi
+0x6d74450e:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744533[0m
+0x6d744533:	xor eax, eax
+0x6d744535:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744550[0m
+0x6d744550:	xor eax, eax
+0x6d744552:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74456a[0m
+0x6d74456a:	pop ecx
+0x6d74456b:	mov eax, esi
+0x6d74456d:	pop esi
+0x6d74456e:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74466e[0m
+0x6d74466e:	add ah, [ebx]
+0x6d744670:	sal dh, 1
+0x6d744672:	ret 0f08h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744975[0m
+0x6d744975:	pop edi
+0x6d744976:	pop esi
+0x6d744977:	pop ebx
+0x6d744978:	leave
+0x6d744979:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7449b5[0m
+0x6d7449b5:	add [eax], al
+0x6d7449b7:	add [edi+2bh], dl
+0x6d7449ba:	ret 8953h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744a0b[0m
+0x6d744a0b:	pop edi
+0x6d744a0c:	pop esi
+0x6d744a0d:	xor eax, eax
+0x6d744a0f:	pop ebx
+0x6d744a10:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744a69[0m
+0x6d744a69:	mov [ecx+4], eax
+0x6d744a6c:	pop ebx
+0x6d744a6d:	leave
+0x6d744a6e:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744aac[0m
+0x6d744aac:	mov eax, [ebp-4]
+0x6d744aaf:	leave
+0x6d744ab0:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744ae9[0m
+0x6d744ae9:	mov eax, [ebp-4]
+0x6d744aec:	leave
+0x6d744aed:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744c52[0m
+0x6d744c52:	pop edi
+0x6d744c53:	pop esi
+0x6d744c54:	pop ebx
+0x6d744c55:	leave
+0x6d744c56:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744cc5[0m
+0x6d744cc5:	add [eax], al
+0x6d744cc7:	add [eax], al
+0x6d744cc9:	leave
+0x6d744cca:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744d8a[0m
+0x6d744d8a:	add [eax], al
+0x6d744d8c:	add [eax], al
+0x6d744d8e:	leave
+0x6d744d8f:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744dc4[0m
+0x6d744dc4:	and [eax], al
+0x6d744dc6:	xor eax, eax
+0x6d744dc8:	pop esi
+0x6d744dc9:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d744f98[0m
+0x6d744f98:	mov eax, esi
+0x6d744f9a:	pop esi
+0x6d744f9b:	leave
+0x6d744f9c:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7450b6[0m
+0x6d7450b6:	pop edi
+0x6d7450b7:	pop esi
+0x6d7450b8:	pop ebx
+0x6d7450b9:	pop ebp
+0x6d7450ba:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745172[0m
+0x6d745172:	add [eax], al
+0x6d745174:	add [eax], al
+0x6d745176:	leave
+0x6d745177:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74522e[0m
+0x6d74522e:	pop edi
+0x6d74522f:	pop esi
+0x6d745230:	pop ebx
+0x6d745231:	leave
+0x6d745232:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745264[0m
+0x6d745264:	add al, 40h
+0x6d745266:	pop edi
+0x6d745267:	pop esi
+0x6d745268:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7452d3[0m
+0x6d7452d3:	add al, 0
+0x6d7452d6:	pop edi
+0x6d7452d7:	pop esi
+0x6d7452d8:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7456cb[0m
+0x6d7456cb:	add [eax], al
+0x6d7456cd:	add [eax], al
+0x6d7456cf:	leave
+0x6d7456d0:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74572d[0m
+0x6d74572d:	mov [ecx+4], eax
+0x6d745730:	pop ebx
+0x6d745731:	leave
+0x6d745732:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745a68[0m
+0x6d745a68:	add [eax], al
+0x6d745a6a:	add [eax], al
+0x6d745a6c:	leave
+0x6d745a6d:	ret 20h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745b72[0m
+0x6d745b72:	mov eax, esi
+0x6d745b74:	pop esi
+0x6d745b75:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745be6[0m
+0x6d745be6:	mov eax, esi
+0x6d745be8:	pop esi
+0x6d745be9:	leave
+0x6d745bea:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745cd9[0m
+0x6d745cd9:	add [eax], al
+0x6d745cdb:	add [ebx-37h], bl
+0x6d745cde:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745d9d[0m
+0x6d745d9d:	add [eax], al
+0x6d745d9f:	add [ebx-37h], bl
+0x6d745da2:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745dbe[0m
+0x6d745dbe:	mov eax, esi
+0x6d745dc0:	pop esi
+0x6d745dc1:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745dcb[0m
+0x6d745dcb:	mov eax, [eax+18h]
+0x6d745dce:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745de9[0m
+0x6d745de9:	mov eax, esi
+0x6d745deb:	pop esi
+0x6d745dec:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745df6[0m
+0x6d745df6:	mov [eax+10h], ecx
+0x6d745df9:	xor eax, eax
+0x6d745dfb:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745e16[0m
+0x6d745e16:	inc ecx
+0x6d745e17:	or al, 2bh
+0x6d745e19:	ret 0f8c1h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745e30[0m
+0x6d745e30:	mov eax, ecx
+0x6d745e32:	pop esi
+0x6d745e33:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745ec9[0m
+0x6d745ec9:	sbb byte ptr [ebx+5fh], 5eh
+0x6d745ecd:	pop ebp
+0x6d745ece:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745f16[0m
+0x6d745f16:	pop ecx
+0x6d745f17:	mov eax, esi
+0x6d745f19:	pop esi
+0x6d745f1a:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745fb0[0m
+0x6d745fb0:	add eax, [eax]
+0x6d745fb2:	add [eax], al
+0x6d745fb4:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d745ff0[0m
+0x6d745ff0:	xor eax, eax
+0x6d745ff2:	pop edi
+0x6d745ff3:	pop esi
+0x6d745ff4:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746272[0m
+0x6d746272:	add [edi+5eh], bl
+0x6d746275:	pop ebx
+0x6d746276:	leave
+0x6d746277:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746454[0m
+0x6d746454:	add [eax], al
+0x6d746456:	add [ebx-37h], bl
+0x6d746459:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74649a[0m
+0x6d74649a:	mov eax, [esi]
+0x6d74649c:	pop edi
+0x6d74649d:	pop esi
+0x6d74649e:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746527[0m
+0x6d746527:	add [eax], al
+0x6d746529:	add [ebx-37h], bl
+0x6d74652c:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746557[0m
+0x6d746557:	and dword ptr [esi+14h], 0
+0x6d74655b:	pop esi
+0x6d74655c:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746577[0m
+0x6d746577:	add al, 0
+0x6d746579:	add [eax], al
+0x6d74657b:	pop ebp
+0x6d74657c:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746622[0m
+0x6d746622:	sub [edi+5eh], bl
+0x6d746625:	pop ebx
+0x6d746626:	leave
+0x6d746627:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7466b5[0m
+0x6d7466b5:	mov eax, esi
+0x6d7466b7:	pop esi
+0x6d7466b8:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746786[0m
+0x6d746786:	pop edi
+0x6d746787:	xor eax, eax
+0x6d746789:	pop esi
+0x6d74678a:	leave
+0x6d74678b:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74679f[0m
+0x6d74679f:	xor eax, eax
+0x6d7467a1:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7467cb[0m
+0x6d7467cb:	mov eax, 80004005h
+0x6d7467d0:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7467e8[0m
+0x6d7467e8:	not eax
+0x6d7467ea:	and eax, 1
+0x6d7467ed:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7467fe[0m
+0x6d7467fe:	dec eax
+0x6d7467ff:	push eax
+0x6d746800:	xor byte ptr [ebx], 0c0h
+0x6d746803:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74681f[0m
+0x6d74681f:	dec dword ptr [eax+4ch]
+0x6d746822:	xor eax, eax
+0x6d746824:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74685b[0m
+0x6d74685b:	mov [eax+4], ecx
+0x6d74685e:	xor eax, eax
+0x6d746860:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7468f4[0m
+0x6d7468f4:	add eax, -7fff0001h
+0x6d7468f9:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74692a[0m
+0x6d74692a:	add al, 0
+0x6d74692c:	add [eax], al
+0x6d74692e:	pop ebp
+0x6d74692f:	ret 2ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746980[0m
+0x6d746980:	inc ebp
+0x6d746981:	adc [ebx], bh
+0x6d746983:	ret 0b74h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7469d3[0m
+0x6d7469d3:	or al, 5fh
+0x6d7469d5:	pop ebx
+0x6d7469d6:	pop esi
+0x6d7469d7:	leave
+0x6d7469d8:	ret 20h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7469db[0m
+0x6d7469db:	mov eax, 80004001h
+0x6d7469e0:	ret 1ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746a14[0m
+0x6d746a14:	xor eax, eax
+0x6d746a16:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746a42[0m
+0x6d746a42:	mov [eax+4], ecx
+0x6d746a45:	xor eax, eax
+0x6d746a47:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746a5d[0m
+0x6d746a5d:	add [eax], al
+0x6d746a5f:	xor eax, eax
+0x6d746a61:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746aa0[0m
+0x6d746aa0:	pop esi
+0x6d746aa1:	pop ebp
+0x6d746aa2:	ret 1ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746ae5[0m
+0x6d746ae5:	pop esi
+0x6d746ae6:	leave
+0x6d746ae7:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746b2c[0m
+0x6d746b2c:	mov eax, 80004003h
+0x6d746b31:	ret 1ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746b6a[0m
+0x6d746b6a:	add eax, -7fff0001h
+0x6d746b6f:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746b8e[0m
+0x6d746b8e:	add eax, [eax]
+0x6d746b90:	add [eax], al
+0x6d746b92:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746c49[0m
+0x6d746c49:	pop ebx
+0x6d746c4a:	leave
+0x6d746c4b:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746cbd[0m
+0x6d746cbd:	pop esi
+0x6d746cbe:	pop ebx
+0x6d746cbf:	mov eax, ecx
+0x6d746cc1:	leave
+0x6d746cc2:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746cc5[0m
+0x6d746cc5:	mov eax, 80004001h
+0x6d746cca:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746cd6[0m
+0x6d746cd6:	inc dword ptr [eax]
+0x6d746cd8:	mov eax, [eax]
+0x6d746cda:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746cf9[0m
+0x6d746cf9:	mov eax, esi
+0x6d746cfb:	pop esi
+0x6d746cfc:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746ebc[0m
+0x6d746ebc:	mov eax, [ebp+8]
+0x6d746ebf:	pop ebx
+0x6d746ec0:	leave
+0x6d746ec1:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746f28[0m
+0x6d746f28:	adc [ebx], edi
+0x6d746f2a:	ret 475h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d746f4c[0m
+0x6d746f4c:	add [edi+5eh], bl
+0x6d746f4f:	pop ebx
+0x6d746f50:	leave
+0x6d746f51:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7470d0[0m
+0x6d7470d0:	pop edi
+0x6d7470d1:	pop esi
+0x6d7470d2:	pop ebx
+0x6d7470d3:	leave
+0x6d7470d4:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747198[0m
+0x6d747198:	pop esi
+0x6d747199:	mov eax, ebx
+0x6d74719b:	pop ebx
+0x6d74719c:	leave
+0x6d74719d:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7471d3[0m
+0x6d7471d3:	add eax, [eax]
+0x6d7471d5:	add [eax], al
+0x6d7471d7:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7471fd[0m
+0x6d7471fd:	xor eax, eax
+0x6d7471ff:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74721a[0m
+0x6d74721a:	adc eax, iat_OleRegEnumVerbs
+0x6d74721f:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74723b[0m
+0x6d74723b:	movsd
+0x6d74723c:	xor eax, eax
+0x6d74723e:	pop esi
+0x6d74723f:	pop edi
+0x6d747240:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747251[0m
+0x6d747251:	adc eax, iat_OleRegGetUserType
+0x6d747256:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747272[0m
+0x6d747272:	add eax, [eax]
+0x6d747274:	add [eax], al
+0x6d747276:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74729b[0m
+0x6d74729b:	push eax
+0x6d74729c:	or al, 5eh
+0x6d74729e:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7472af[0m
+0x6d7472af:	adc eax, iat_OleRegGetMiscStatus
+0x6d7472b4:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7472d2[0m
+0x6d7472d2:	mov edi, 0c033ffffh
+0x6d7472d7:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74733b[0m
+0x6d74733b:	sbb byte ptr [edi+5bh], 5dh
+0x6d74733f:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74739a[0m
+0x6d74739a:	xor eax, eax
+0x6d74739c:	pop esi
+0x6d74739d:	pop ebp
+0x6d74739e:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747451[0m
+0x6d747451:	mov eax, edi
+0x6d747453:	pop edi
+0x6d747454:	pop esi
+0x6d747455:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74748c[0m
+0x6d74748c:	pop edi
+0x6d74748d:	xor eax, eax
+0x6d74748f:	pop esi
+0x6d747490:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7477a4[0m
+0x6d7477a4:	add [eax], al
+0x6d7477a6:	add [eax], al
+0x6d7477a8:	leave
+0x6d7477a9:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747840[0m
+0x6d747840:	xor eax, eax
+0x6d747842:	pop edi
+0x6d747843:	pop esi
+0x6d747844:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747973[0m
+0x6d747973:	add [eax], al
+0x6d747975:	add [eax], al
+0x6d747977:	leave
+0x6d747978:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747b30[0m
+0x6d747b30:	add eax, [eax]
+0x6d747b32:	add [eax], al
+0x6d747b34:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747c2a[0m
+0x6d747c2a:	add [eax], al
+0x6d747c2c:	add [eax], al
+0x6d747c2e:	leave
+0x6d747c2f:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747c5b[0m
+0x6d747c5b:	add eax, [eax]
+0x6d747c5d:	add [eax], al
+0x6d747c5f:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747d1e[0m
+0x6d747d1e:	pop edi
+0x6d747d1f:	pop esi
+0x6d747d20:	pop ebx
+0x6d747d21:	leave
+0x6d747d22:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747d42[0m
+0x6d747d42:	sub esi, esi
+0x6d747d44:	ret 7402h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747dcc[0m
+0x6d747dcc:	add [eax], al
+0x6d747dce:	add [eax], al
+0x6d747dd0:	leave
+0x6d747dd1:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747e71[0m
+0x6d747e71:	add [eax], al
+0x6d747e73:	add [eax], al
+0x6d747e75:	leave
+0x6d747e76:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747ebd[0m
+0x6d747ebd:	add [eax], al
+0x6d747ebf:	xor eax, eax
+0x6d747ec1:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d747fa5[0m
+0x6d747fa5:	add eax, [eax]
+0x6d747fa7:	add [eax], al
+0x6d747fa9:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74806c[0m
+0x6d74806c:	add eax, [eax]
+0x6d74806e:	add [eax], al
+0x6d748070:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748095[0m
+0x6d748095:	and byte ptr [esi+50h], 7fh
+0x6d748099:	pop esi
+0x6d74809a:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748214[0m
+0x6d748214:	sbb byte ptr [edi+5eh], 5bh
+0x6d748218:	leave
+0x6d748219:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748223[0m
+0x6d748223:	inc ebp
+0x6d748224:	adc [ebx], dh
+0x6d748226:	sar [ebx], cl
+0x6d748228:	ret 775h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74833a[0m
+0x6d74833a:	or [edi+5eh], bl
+0x6d74833d:	pop ebx
+0x6d74833e:	leave
+0x6d74833f:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74838b[0m
+0x6d74838b:	or al, 33h
+0x6d74838d:	rol [edx+3bh], cl
+0x6d748390:	ret 0a74h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748494[0m
+0x6d748494:	add [eax], al
+0x6d748496:	add [eax], al
+0x6d748498:	leave
+0x6d748499:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7484f6[0m
+0x6d7484f6:	add eax, [eax]
+0x6d7484f8:	add [eax], al
+0x6d7484fa:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74865d[0m
+0x6d74865d:	sbb byte ptr [edi+5eh], 5bh
+0x6d748661:	leave
+0x6d748662:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7486be[0m
+0x6d7486be:	xor eax, eax
+0x6d7486c0:	pop edi
+0x6d7486c1:	pop esi
+0x6d7486c2:	leave
+0x6d7486c3:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74881c[0m
+0x6d74881c:	add [eax], al
+0x6d74881e:	add [eax], al
+0x6d748820:	leave
+0x6d748821:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748867[0m
+0x6d748867:	pop ecx
+0x6d748868:	mov eax, esi
+0x6d74886a:	pop esi
+0x6d74886b:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748945[0m
+0x6d748945:	xor eax, eax
+0x6d748947:	pop edi
+0x6d748948:	pop esi
+0x6d748949:	pop ebp
+0x6d74894a:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748a35[0m
+0x6d748a35:	xor eax, eax
+0x6d748a37:	pop edi
+0x6d748a38:	pop esi
+0x6d748a39:	pop ebp
+0x6d748a3a:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748ac2[0m
+0x6d748ac2:	pop esi
+0x6d748ac3:	xor eax, eax
+0x6d748ac5:	pop ebx
+0x6d748ac6:	leave
+0x6d748ac7:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748b4c[0m
+0x6d748b4c:	add [eax], al
+0x6d748b4e:	add [eax], al
+0x6d748b50:	leave
+0x6d748b51:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748bb1[0m
+0x6d748bb1:	mov eax, esi
+0x6d748bb3:	pop esi
+0x6d748bb4:	leave
+0x6d748bb5:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748c6e[0m
+0x6d748c6e:	add [eax], al
+0x6d748c70:	add [eax], al
+0x6d748c72:	leave
+0x6d748c73:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748c75[0m
+0x6d748c75:	add cl, ch
+0x6d748c77:	movsd
+0x6d748c78:	ret 0ffffh
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748cf3[0m
+0x6d748cf3:	add [eax], al
+0x6d748cf5:	add [eax], al
+0x6d748cf7:	leave
+0x6d748cf8:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748d2c[0m
+0x6d748d2c:	pop ebp
+0x6d748d2d:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748d77[0m
+0x6d748d77:	push eax
+0x6d748d78:	sub al, 5dh
+0x6d748d7a:	ret 24h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748e54[0m
+0x6d748e54:	add [eax], al
+0x6d748e56:	pop ebp
+0x6d748e57:	ret 1ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748ea2[0m
+0x6d748ea2:	xor eax, eax
+0x6d748ea4:	pop esi
+0x6d748ea5:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748ed4[0m
+0x6d748ed4:	mov eax, edi
+0x6d748ed6:	pop edi
+0x6d748ed7:	pop esi
+0x6d748ed8:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d748efb[0m
+0x6d748efb:	sar byte ptr [edx+33h+eax], 0c0h
+0x6d748f00:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7490a8[0m
+0x6d7490a8:	add [eax], al
+0x6d7490aa:	add [eax], al
+0x6d7490ac:	leave
+0x6d7490ad:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7490df[0m
+0x6d7490df:	mov eax, [esi]
+0x6d7490e1:	pop edi
+0x6d7490e2:	pop esi
+0x6d7490e3:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74913e[0m
+0x6d74913e:	mov eax, edi
+0x6d749140:	pop edi
+0x6d749141:	pop esi
+0x6d749142:	leave
+0x6d749143:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7491d2[0m
+0x6d7491d2:	add [eax], al
+0x6d7491d4:	add [eax], al
+0x6d7491d6:	leave
+0x6d7491d7:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749251[0m
+0x6d749251:	mov eax, esi
+0x6d749253:	pop esi
+0x6d749254:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749400[0m
+0x6d749400:	pop ecx
+0x6d749401:	mov eax, esi
+0x6d749403:	pop esi
+0x6d749404:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7494d0[0m
+0x6d7494d0:	add [eax], al
+0x6d7494d2:	add [eax], al
+0x6d7494d4:	leave
+0x6d7494d5:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749547[0m
+0x6d749547:	add [eax], al
+0x6d749549:	add [ebx-37h], bl
+0x6d74954c:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7495e2[0m
+0x6d7495e2:	pop esi
+0x6d7495e3:	pop ebp
+0x6d7495e4:	ret 24h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74962c[0m
+0x6d74962c:	add [eax], al
+0x6d74962e:	add [eax], al
+0x6d749630:	leave
+0x6d749631:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74968b[0m
+0x6d74968b:	mov esi, eax
+0x6d74968d:	mov eax, esi
+0x6d74968f:	pop esi
+0x6d749690:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7496a8[0m
+0x6d7496a8:	pop ecx
+0x6d7496a9:	mov eax, esi
+0x6d7496ab:	pop esi
+0x6d7496ac:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74978d[0m
+0x6d74978d:	add [eax], al
+0x6d74978f:	add [ebx-37h], bl
+0x6d749792:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7497d3[0m
+0x6d7497d3:	add [eax], al
+0x6d7497d5:	add [eax], al
+0x6d7497d7:	leave
+0x6d7497d8:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7497f3[0m
+0x6d7497f3:	mov eax, esi
+0x6d7497f5:	pop esi
+0x6d7497f6:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749850[0m
+0x6d749850:	mov esi, eax
+0x6d749852:	mov eax, esi
+0x6d749854:	pop esi
+0x6d749855:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74986d[0m
+0x6d74986d:	pop ecx
+0x6d74986e:	mov eax, esi
+0x6d749870:	pop esi
+0x6d749871:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749b19[0m
+0x6d749b19:	pop edi
+0x6d749b1a:	pop esi
+0x6d749b1b:	pop ebx
+0x6d749b1c:	leave
+0x6d749b1d:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749b97[0m
+0x6d749b97:	mov eax, 80004001h
+0x6d749b9c:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749b9d[0m
+0x6d749b9d:	or al, 0
+0x6d749b9f:	xor eax, eax
+0x6d749ba1:	inc eax
+0x6d749ba2:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749c7d[0m
+0x6d749c7d:	pop ecx
+0x6d749c7e:	mov eax, esi
+0x6d749c80:	pop esi
+0x6d749c81:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749d6a[0m
+0x6d749d6a:	add [edi+5eh], bl
+0x6d749d6d:	pop ebx
+0x6d749d6e:	leave
+0x6d749d6f:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749e72[0m
+0x6d749e72:	add [eax], al
+0x6d749e74:	add [ebx-37h], bl
+0x6d749e77:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749ecd[0m
+0x6d749ecd:	xor eax, eax
+0x6d749ecf:	inc eax
+0x6d749ed0:	pop edi
+0x6d749ed1:	pop esi
+0x6d749ed2:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749edd[0m
+0x6d749edd:	add al, [ebx]
+0x6d749edf:	ret 0a74h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749eed[0m
+0x6d749eed:	inc ecx
+0x6d749eee:	add al, 3
+0x6d749ef0:	ret 874h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749ef7[0m
+0x6d749ef7:	mov ecx, [ecx]
+0x6d749ef9:	mov [eax], ecx
+0x6d749efb:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d749fcb[0m
+0x6d749fcb:	stosd
+0x6d749fcc:	ret 0ffffh
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a061[0m
+0x6d74a061:	add [edi+5eh], bl
+0x6d74a064:	pop ebx
+0x6d74a065:	leave
+0x6d74a066:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a248[0m
+0x6d74a248:	add [edi+5eh], bl
+0x6d74a24b:	pop ebx
+0x6d74a24c:	leave
+0x6d74a24d:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a26c[0m
+0x6d74a26c:	mov [esi], eax
+0x6d74a26e:	pop esi
+0x6d74a26f:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a348[0m
+0x6d74a348:	mov eax, edi
+0x6d74a34a:	pop edi
+0x6d74a34b:	pop esi
+0x6d74a34c:	leave
+0x6d74a34d:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a4aa[0m
+0x6d74a4aa:	pop edi
+0x6d74a4ab:	pop ebx
+0x6d74a4ac:	pop esi
+0x6d74a4ad:	leave
+0x6d74a4ae:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a625[0m
+0x6d74a625:	add [eax], al
+0x6d74a627:	add [eax], al
+0x6d74a629:	leave
+0x6d74a62a:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a653[0m
+0x6d74a653:	add [eax], al
+0x6d74a655:	mov eax, esi
+0x6d74a657:	pop esi
+0x6d74a658:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a6c6[0m
+0x6d74a6c6:	pop edi
+0x6d74a6c7:	inc eax
+0x6d74a6c8:	pop esi
+0x6d74a6c9:	pop ebx
+0x6d74a6ca:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a6de[0m
+0x6d74a6de:	xor eax, eax
+0x6d74a6e0:	pop esi
+0x6d74a6e1:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a72f[0m
+0x6d74a72f:	or eax, -1
+0x6d74a732:	pop edi
+0x6d74a733:	pop esi
+0x6d74a734:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74a7ee[0m
+0x6d74a7ee:	pop edi
+0x6d74a7ef:	pop esi
+0x6d74a7f0:	pop ebx
+0x6d74a7f1:	leave
+0x6d74a7f2:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ace4[0m
+0x6d74ace4:	add [eax], al
+0x6d74ace6:	add [eax], al
+0x6d74ace8:	leave
+0x6d74ace9:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74adaf[0m
+0x6d74adaf:	mov [esi], ecx
+0x6d74adb1:	pop esi
+0x6d74adb2:	leave
+0x6d74adb3:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ade3[0m
+0x6d74ade3:	sbb eax, eax
+0x6d74ade5:	neg eax
+0x6d74ade7:	leave
+0x6d74ade8:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ae33[0m
+0x6d74ae33:	xor eax, eax
+0x6d74ae35:	pop edi
+0x6d74ae36:	pop esi
+0x6d74ae37:	leave
+0x6d74ae38:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74aec2[0m
+0x6d74aec2:	mov eax, esi
+0x6d74aec4:	pop esi
+0x6d74aec5:	pop ebx
+0x6d74aec6:	leave
+0x6d74aec7:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b26f[0m
+0x6d74b26f:	add [edi+5eh], bl
+0x6d74b272:	pop ebx
+0x6d74b273:	leave
+0x6d74b274:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b2a8[0m
+0x6d74b2a8:	pop edi
+0x6d74b2a9:	pop esi
+0x6d74b2aa:	pop ebx
+0x6d74b2ab:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b4c3[0m
+0x6d74b4c3:	add [edi+5eh], bl
+0x6d74b4c6:	pop ebx
+0x6d74b4c7:	leave
+0x6d74b4c8:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b6b7[0m
+0x6d74b6b7:	pop edi
+0x6d74b6b8:	pop esi
+0x6d74b6b9:	pop ebx
+0x6d74b6ba:	leave
+0x6d74b6bb:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b784[0m
+0x6d74b784:	add [edi+5eh], bl
+0x6d74b787:	pop ebx
+0x6d74b788:	leave
+0x6d74b789:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b851[0m
+0x6d74b851:	add [edi+5eh], bl
+0x6d74b854:	pop ebx
+0x6d74b855:	leave
+0x6d74b856:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74b984[0m
+0x6d74b984:	leave
+0x6d74b985:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ba0f[0m
+0x6d74ba0f:	add [eax], al
+0x6d74ba11:	add [ebx-37h], bl
+0x6d74ba14:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ba17[0m
+0x6d74ba17:	mov eax, 800401a1h
+0x6d74ba1c:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ba1d[0m
+0x6d74ba1d:	or [eax], al
+0x6d74ba1f:	xor eax, eax
+0x6d74ba21:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ba22[0m
+0x6d74ba22:	or al, 0
+0x6d74ba24:	xor eax, eax
+0x6d74ba26:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ba30[0m
+0x6d74ba30:	mov eax, [eax+4]
+0x6d74ba33:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ba51[0m
+0x6d74ba51:	mov eax, esi
+0x6d74ba53:	pop esi
+0x6d74ba54:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ba89[0m
+0x6d74ba89:	pop ecx
+0x6d74ba8a:	mov eax, esi
+0x6d74ba8c:	pop esi
+0x6d74ba8d:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bb85[0m
+0x6d74bb85:	add [eax], al
+0x6d74bb87:	add [ebx-37h], bl
+0x6d74bb8a:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bb8b[0m
+0x6d74bb8b:	add al, 0
+0x6d74bb8d:	xor eax, eax
+0x6d74bb8f:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bb90[0m
+0x6d74bb90:	sbb [eax], al
+0x6d74bb92:	xor eax, eax
+0x6d74bb94:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bba8[0m
+0x6d74bba8:	xor eax, eax
+0x6d74bbaa:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bbdf[0m
+0x6d74bbdf:	pop ecx
+0x6d74bbe0:	mov eax, esi
+0x6d74bbe2:	pop esi
+0x6d74bbe3:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bccd[0m
+0x6d74bccd:	add [eax], al
+0x6d74bccf:	add [ebx-37h], bl
+0x6d74bcd2:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bd63[0m
+0x6d74bd63:	add [eax], al
+0x6d74bd65:	add [ebx-37h], bl
+0x6d74bd68:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74bdd9[0m
+0x6d74bdd9:	pop edi
+0x6d74bdda:	pop esi
+0x6d74bddb:	pop ebx
+0x6d74bddc:	pop ebp
+0x6d74bddd:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74be24[0m
+0x6d74be24:	pop edi
+0x6d74be25:	pop esi
+0x6d74be26:	pop ebx
+0x6d74be27:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74be98[0m
+0x6d74be98:	xor dword ptr [ebp+6dh], 5eh
+0x6d74be9c:	pop ebp
+0x6d74be9d:	ret 20h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c076[0m
+0x6d74c076:	xor eax, eax
+0x6d74c078:	inc eax
+0x6d74c079:	pop edi
+0x6d74c07a:	pop esi
+0x6d74c07b:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c090[0m
+0x6d74c090:	mov ecx, [ecx]
+0x6d74c092:	mov [eax], cx
+0x6d74c095:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c0fa[0m
+0x6d74c0fa:	xor eax, eax
+0x6d74c0fc:	pop ebx
+0x6d74c0fd:	pop ebp
+0x6d74c0fe:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c1c9[0m
+0x6d74c1c9:	mov eax, edi
+0x6d74c1cb:	pop edi
+0x6d74c1cc:	pop esi
+0x6d74c1cd:	leave
+0x6d74c1ce:	ret 20h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c229[0m
+0x6d74c229:	pop edi
+0x6d74c22a:	pop esi
+0x6d74c22b:	pop ebp
+0x6d74c22c:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c245[0m
+0x6d74c245:	pop ebp
+0x6d74c246:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c26f[0m
+0x6d74c26f:	pop ebp
+0x6d74c270:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c4ab[0m
+0x6d74c4ab:	add esp, 14h
+0x6d74c4ae:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c4dd[0m
+0x6d74c4dd:	add esp, 14h
+0x6d74c4e0:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c57f[0m
+0x6d74c57f:	add [eax], al
+0x6d74c581:	add [eax], al
+0x6d74c583:	leave
+0x6d74c584:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c5b3[0m
+0x6d74c5b3:	add esp, 14h
+0x6d74c5b6:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c5ea[0m
+0x6d74c5ea:	xor eax, eax
+0x6d74c5ec:	pop esi
+0x6d74c5ed:	pop ebp
+0x6d74c5ee:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c5fd[0m
+0x6d74c5fd:	add [eax], al
+0x6d74c5ff:	xor eax, eax
+0x6d74c601:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c65a[0m
+0x6d74c65a:	pop edi
+0x6d74c65b:	pop esi
+0x6d74c65c:	pop ebp
+0x6d74c65d:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c68d[0m
+0x6d74c68d:	add ebp, [edx+0dh]
+0x6d74c690:	pop eax
+0x6d74c691:	leave
+0x6d74c692:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74c6e3[0m
+0x6d74c6e3:	pop eax
+0x6d74c6e4:	pop edi
+0x6d74c6e5:	pop esi
+0x6d74c6e6:	pop ebx
+0x6d74c6e7:	leave
+0x6d74c6e8:	ret 0ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74eb62[0m
+0x6d74eb62:	adc eax, iat_DefWindowProcA
+0x6d74eb67:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ec21[0m
+0x6d74ec21:	pop esi
+0x6d74ec22:	inc eax
+0x6d74ec23:	pop ebx
+0x6d74ec24:	leave
+0x6d74ec25:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ed89[0m
+0x6d74ed89:	mov eax, esi
+0x6d74ed8b:	pop esi
+0x6d74ed8c:	pop ebx
+0x6d74ed8d:	leave
+0x6d74ed8e:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ee1d[0m
+0x6d74ee1d:	xor eax, eax
+0x6d74ee1f:	pop edi
+0x6d74ee20:	pop esi
+0x6d74ee21:	leave
+0x6d74ee22:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ef3d[0m
+0x6d74ef3d:	xor eax, eax
+0x6d74ef3f:	pop esi
+0x6d74ef40:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f1ad[0m
+0x6d74f1ad:	dec ebp
+0x6d74f1ae:	shr byte ptr [ebx], 1
+0x6d74f1b0:	ret 448dh
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f3ad[0m
+0x6d74f3ad:	add [edi+5eh], bl
+0x6d74f3b0:	pop ebx
+0x6d74f3b1:	leave
+0x6d74f3b2:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74f80b[0m
+0x6d74f80b:	add [edi+5eh], bl
+0x6d74f80e:	pop ebx
+0x6d74f80f:	leave
+0x6d74f810:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74fa6d[0m
+0x6d74fa6d:	add [edi+5eh], bl
+0x6d74fa70:	pop ebx
+0x6d74fa71:	leave
+0x6d74fa72:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74fac5[0m
+0x6d74fac5:	add [eax], al
+0x6d74fac7:	pop edi
+0x6d74fac8:	pop esi
+0x6d74fac9:	pop ebp
+0x6d74faca:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74fba3[0m
+0x6d74fba3:	adc [edi+5eh], bl
+0x6d74fba6:	pop ebx
+0x6d74fba7:	leave
+0x6d74fba8:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74fc53[0m
+0x6d74fc53:	xor eax, eax
+0x6d74fc55:	pop ebp
+0x6d74fc56:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74fc6e[0m
+0x6d74fc6e:	pop ecx
+0x6d74fc6f:	mov eax, esi
+0x6d74fc71:	pop esi
+0x6d74fc72:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74fd06[0m
+0x6d74fd06:	dec dword ptr [edi]
+0x6d74fd08:	xchg esp, eax
+0x6d74fd09:	ret 8166h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d74ffea[0m
+0x6d74ffea:	add [eax], al
+0x6d74ffec:	add [ebx-37h], bl
+0x6d74ffef:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750039[0m
+0x6d750039:	pop edi
+0x6d75003a:	mov [esi], eax
+0x6d75003c:	pop esi
+0x6d75003d:	pop ebp
+0x6d75003e:	ret 20h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d750107[0m
+0x6d750107:	add [eax], al
+0x6d750109:	add [eax], al
+0x6d75010b:	leave
+0x6d75010c:	ret 1ch
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75017f[0m
+0x6d75017f:	add [eax], al
+0x6d750181:	add [eax], al
+0x6d750183:	leave
+0x6d750184:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7502bd[0m
+0x6d7502bd:	pop esi
+0x6d7502be:	pop ebx
+0x6d7502bf:	pop ebp
+0x6d7502c0:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7526ee[0m
+0x6d7526ee:	adc bl, ch
+0x6d7526f0:	ret 8d57h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7538c5[0m
+0x6d7538c5:	pop ecx
+0x6d7538c6:	pop ecx
+0x6d7538c7:	pop esi
+0x6d7538c8:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753a03[0m
+0x6d753a03:	add al, ch
+0x6d753a05:	ret 0fffeh
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753ead[0m
+0x6d753ead:	mov [eax+4], ecx
+0x6d753eb0:	xor eax, eax
+0x6d753eb2:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753f08[0m
+0x6d753f08:	pop edi
+0x6d753f09:	pop esi
+0x6d753f0a:	pop ebp
+0x6d753f0b:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753f64[0m
+0x6d753f64:	pop edi
+0x6d753f65:	pop esi
+0x6d753f66:	pop ebp
+0x6d753f67:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d753fc0[0m
+0x6d753fc0:	pop edi
+0x6d753fc1:	pop esi
+0x6d753fc2:	pop ebp
+0x6d753fc3:	ret 8
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75412e[0m
+0x6d75412e:	add al, 10h
+0x6d754130:	add [eax], al
+0x6d754132:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754191[0m
+0x6d754191:	xor eax, eax
+0x6d754193:	inc eax
+0x6d754194:	leave
+0x6d754195:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7541be[0m
+0x6d7541be:	adc eax, iat_DefWindowProcA
+0x6d7541c3:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75427c[0m
+0x6d75427c:	pop edi
+0x6d75427d:	xor eax, eax
+0x6d75427f:	pop ebx
+0x6d754280:	leave
+0x6d754281:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7543e5[0m
+0x6d7543e5:	mov eax, esi
+0x6d7543e7:	pop esi
+0x6d7543e8:	pop ebx
+0x6d7543e9:	leave
+0x6d7543ea:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754642[0m
+0x6d754642:	pop edi
+0x6d754643:	pop esi
+0x6d754644:	pop ebx
+0x6d754645:	leave
+0x6d754646:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75466d[0m
+0x6d75466d:	xor eax, eax
+0x6d75466f:	pop esi
+0x6d754670:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754697[0m
+0x6d754697:	xor eax, eax
+0x6d754699:	pop esi
+0x6d75469a:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7546c0[0m
+0x6d7546c0:	xor eax, eax
+0x6d7546c2:	pop ebp
+0x6d7546c3:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754b14[0m
+0x6d754b14:	add [edi+5eh], bl
+0x6d754b17:	pop ebx
+0x6d754b18:	leave
+0x6d754b19:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754d76[0m
+0x6d754d76:	add [edi+5eh], bl
+0x6d754d79:	pop ebx
+0x6d754d7a:	leave
+0x6d754d7b:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754e42[0m
+0x6d754e42:	add [eax], al
+0x6d754e44:	add [esi+3bh], ah
+0x6d754e47:	ret 1d75h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754e67[0m
+0x6d754e67:	xor eax, eax
+0x6d754e69:	pop ebp
+0x6d754e6a:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754ebf[0m
+0x6d754ebf:	pop edi
+0x6d754ec0:	pop esi
+0x6d754ec1:	pop ebp
+0x6d754ec2:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754eda[0m
+0x6d754eda:	pop ecx
+0x6d754edb:	mov eax, esi
+0x6d754edd:	pop esi
+0x6d754ede:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d754f72[0m
+0x6d754f72:	dec dword ptr [edi]
+0x6d754f74:	xchg esp, eax
+0x6d754f75:	ret 8166h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755256[0m
+0x6d755256:	add [eax], al
+0x6d755258:	add [ebx-37h], bl
+0x6d75525b:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755284[0m
+0x6d755284:	adc eax, iat_DefWindowProcA
+0x6d755289:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755346[0m
+0x6d755346:	pop esi
+0x6d755347:	inc eax
+0x6d755348:	pop ebx
+0x6d755349:	leave
+0x6d75534a:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7554ae[0m
+0x6d7554ae:	mov eax, esi
+0x6d7554b0:	pop esi
+0x6d7554b1:	pop ebx
+0x6d7554b2:	leave
+0x6d7554b3:	ret 14h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75554c[0m
+0x6d75554c:	xor eax, eax
+0x6d75554e:	pop edi
+0x6d75554f:	pop esi
+0x6d755550:	leave
+0x6d755551:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d75573c[0m
+0x6d75573c:	pop esi
+0x6d75573d:	xor eax, eax
+0x6d75573f:	pop ebx
+0x6d755740:	leave
+0x6d755741:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755768[0m
+0x6d755768:	xor eax, eax
+0x6d75576a:	pop esi
+0x6d75576b:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755bbc[0m
+0x6d755bbc:	add [edi+5eh], bl
+0x6d755bbf:	pop ebx
+0x6d755bc0:	leave
+0x6d755bc1:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755e1e[0m
+0x6d755e1e:	add [edi+5eh], bl
+0x6d755e21:	pop ebx
+0x6d755e22:	leave
+0x6d755e23:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755ece[0m
+0x6d755ece:	xor eax, eax
+0x6d755ed0:	pop ebp
+0x6d755ed1:	ret 18h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755f26[0m
+0x6d755f26:	pop edi
+0x6d755f27:	pop esi
+0x6d755f28:	pop ebp
+0x6d755f29:	ret 10h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755f41[0m
+0x6d755f41:	pop ecx
+0x6d755f42:	mov eax, esi
+0x6d755f44:	pop esi
+0x6d755f45:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d755fd9[0m
+0x6d755fd9:	dec dword ptr [edi]
+0x6d755fdb:	xchg esp, eax
+0x6d755fdc:	ret 8166h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7562bd[0m
+0x6d7562bd:	add [eax], al
+0x6d7562bf:	add [ebx-37h], bl
+0x6d7562c2:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756494[0m
+0x6d756494:	or al, 68h
+0x6d756496:	inc eax
+0x6d756497:	ret 6d75h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7564d3[0m
+0x6d7564d3:	push eax
+0x6d7564d4:	ret 6d75h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7564ff[0m
+0x6d7564ff:	or al, 68h
+0x6d756501:	pop esp
+0x6d756502:	ret 6d75h
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756d3d[0m
+0x6d756d3d:	pop ecx
+0x6d756d3e:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756d4a[0m
+0x6d756d4a:	pop ecx
+0x6d756d4b:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756e34[0m
+0x6d756e34:	mov ecx, [ecx]
+0x6d756e36:	lea eax, [ecx+4*eax]
+0x6d756e39:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d756ec5[0m
+0x6d756ec5:	mov eax, esi
+0x6d756ec7:	pop esi
+0x6d756ec8:	leave
+0x6d756ec9:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d757199[0m
+0x6d757199:	pop ecx
+0x6d75719a:	mov eax, esi
+0x6d75719c:	pop esi
+0x6d75719d:	pop ebx
+0x6d75719e:	ret 4
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7572f6[0m
+0x6d7572f6:	adc al, -9
+0x6d7572f8:	ret 0ffffh
+
+./DLLs/ssv.dll gadget: [1m[32m0x6d7573c0[0m
+0x6d7573c0:	pop ecx
+0x6d7573c1:	xor eax, eax
+0x6d7573c3:	inc eax
+0x6d7573c4:	ret 0ch
+
+Found [1m[32m790[0m gadgets total
+

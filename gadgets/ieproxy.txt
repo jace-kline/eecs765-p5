@@ -1,0 +1,1373 @@
+Collecting gadgets from [1m[36m./DLLs/ieproxy.dll[0m
+Found [32m262[0m gadgets
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c41039[0m
+0x08c41039:	add [eax], al
+0x08c4103b:	add [esi+79h], bl
+0x08c4103e:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c41040[0m
+0x08c41040:	and al, 76h
+0x08c41042:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c410cd[0m
+0x08c410cd:	mov esp, 647f77bch
+0x08c410d2:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4ed0a[0m
+0x08c4ed0a:	add [eax], al
+0x08c4ed0c:	add [eax], al
+0x08c4ed0e:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c51e6a[0m
+0x08c51e6a:	add edx, edx
+0x08c51e6c:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c53d38[0m
+0x08c53d38:	seg_ss movsb
+0x08c53d3a:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c53d76[0m
+0x08c53d76:	seg_ss movsb
+0x08c53d78:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5515c[0m
+0x08c5515c:	add [eax], al
+0x08c5515e:	add [eax], al
+0x08c55160:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b416[0m
+0x08c5b416:	adc byte ptr [ebx+0dh], 39h
+0x08c5b41a:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b5a7[0m
+0x08c5b5a7:	xchg esp, eax
+0x08c5b5a8:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b643[0m
+0x08c5b643:	dec esp
+0x08c5b644:	sbb [edi-1eh+2*eax], dl
+0x08c5b648:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b6fa[0m
+0x08c5b6fa:	seg_ss movsb
+0x08c5b6fc:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b912[0m
+0x08c5b912:	sub edx, edi
+0x08c5b914:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ba16[0m
+0x08c5ba16:	test ebp, [ecx-19h]
+0x08c5ba19:	push esi
+0x08c5ba1a:	push esp
+0x08c5ba1b:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5bb9a[0m
+0x08c5bb9a:	xchg esi, eax
+0x08c5bb9b:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5bba0[0m
+0x08c5bba0:	mov [1dfef25bh], al
+0x08c5bba5:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5bef4[0m
+0x08c5bef4:	add edx, edx
+0x08c5bef6:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c4b5[0m
+0x08c5c4b5:	pop edx
+0x08c5c4b6:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c80f[0m
+0x08c5c80f:	mov al, [0fe6405c9h]
+0x08c5c814:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c967[0m
+0x08c5c967:	adc eax, iat_NdrDllCanUnloadNow
+0x08c5c96c:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c9df[0m
+0x08c5c9df:	adc eax, iat_NdrDllRegisterProxy
+0x08c5c9e4:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c9fb[0m
+0x08c5c9fb:	adc eax, iat_NdrDllUnregisterProxy
+0x08c5ca00:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ccb8[0m
+0x08c5ccb8:	add [eax], al
+0x08c5ccba:	pop ecx
+0x08c5ccbb:	pop ecx
+0x08c5ccbc:	pop ebp
+0x08c5ccbd:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ccbe[0m
+0x08c5ccbe:	xor eax, eax
+0x08c5ccc0:	pop ebp
+0x08c5ccc1:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cce8[0m
+0x08c5cce8:	pop esi
+0x08c5cce9:	pop ebp
+0x08c5ccea:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cd07[0m
+0x08c5cd07:	sal byte ptr [ebp+2], 40h
+0x08c5cd0b:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cd0c[0m
+0x08c5cd0c:	and dword ptr [eax], 0
+0x08c5cd0f:	xor eax, eax
+0x08c5cd11:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cd6e[0m
+0x08c5cd6e:	or bl, ch
+0x08c5cd70:	adc [ebx], edi
+0x08c5cd72:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cf15[0m
+0x08c5cf15:	pop ecx
+0x08c5cf16:	pop ecx
+0x08c5cf17:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cf57[0m
+0x08c5cf57:	pop ecx
+0x08c5cf58:	pop ecx
+0x08c5cf59:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cf9a[0m
+0x08c5cf9a:	pop ecx
+0x08c5cf9b:	pop ecx
+0x08c5cf9c:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cfdf[0m
+0x08c5cfdf:	pop ecx
+0x08c5cfe0:	pop ecx
+0x08c5cfe1:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d00e[0m
+0x08c5d00e:	pop ecx
+0x08c5d00f:	pop ecx
+0x08c5d010:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d043[0m
+0x08c5d043:	pop ecx
+0x08c5d044:	pop ecx
+0x08c5d045:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d088[0m
+0x08c5d088:	pop ecx
+0x08c5d089:	pop ecx
+0x08c5d08a:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d0cf[0m
+0x08c5d0cf:	pop ecx
+0x08c5d0d0:	pop ecx
+0x08c5d0d1:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d1c7[0m
+0x08c5d1c7:	sbb [edi+5eh], bl
+0x08c5d1ca:	pop ebx
+0x08c5d1cb:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d20c[0m
+0x08c5d20c:	mov eax, 3
+0x08c5d211:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d240[0m
+0x08c5d240:	pop ebx
+0x08c5d241:	pop edi
+0x08c5d242:	pop esi
+0x08c5d243:	pop ebp
+0x08c5d244:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d272[0m
+0x08c5d272:	add [edi+5eh], bl
+0x08c5d275:	pop ebx
+0x08c5d276:	pop ebp
+0x08c5d277:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d36c[0m
+0x08c5d36c:	pop esi
+0x08c5d36d:	pop ebx
+0x08c5d36e:	mov esp, ebp
+0x08c5d370:	pop ebp
+0x08c5d371:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d452[0m
+0x08c5d452:	xor eax, eax
+0x08c5d454:	pop ebp
+0x08c5d455:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d471[0m
+0x08c5d471:	mov eax, edx
+0x08c5d473:	pop ebp
+0x08c5d474:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d4bf[0m
+0x08c5d4bf:	pop edi
+0x08c5d4c0:	pop esi
+0x08c5d4c1:	pop ebx
+0x08c5d4c2:	pop ebp
+0x08c5d4c3:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d51d[0m
+0x08c5d51d:	setz cl
+0x08c5d520:	mov eax, ecx
+0x08c5d522:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d532[0m
+0x08c5d532:	add [eax], al
+0x08c5d534:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d593[0m
+0x08c5d593:	mov [0], eax
+0x08c5d598:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d5a7[0m
+0x08c5d5a7:	pop ebx
+0x08c5d5a8:	mov esp, ebp
+0x08c5d5aa:	pop ebp
+0x08c5d5ab:	push ecx
+0x08c5d5ac:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d5d2[0m
+0x08c5d5d2:	add esp, 18h
+0x08c5d5d5:	pop ebp
+0x08c5d5d6:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d667[0m
+0x08c5d667:	or [esi+5fh], bl
+0x08c5d66a:	pop ebx
+0x08c5d66b:	leave
+0x08c5d66c:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d74f[0m
+0x08c5d74f:	adc ah, al
+0x08c5d751:	or cl, cl
+0x08c5d753:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e467[0m
+0x08c5e467:	inc ah
+0x08c5e469:	or al, ch
+0x08c5e46b:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5eb38[0m
+0x08c5eb38:	xor al, ch
+0x08c5eb3a:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ee63[0m
+0x08c5ee63:	add eax, [eax+5eh]
+0x08c5ee66:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ee67[0m
+0x08c5ee67:	xor eax, eax
+0x08c5ee69:	pop esi
+0x08c5ee6a:	ret
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c42a9c[0m
+0x08c42a9c:	mov eax, [4fc000e8h]
+0x08c42aa1:	ret 0e1fbh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c42b42[0m
+0x08c42b42:	mov eax, [4fc000e8h]
+0x08c42b47:	ret 0e1fbh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c43e72[0m
+0x08c43e72:	adc esp, [eax]
+0x08c43e74:	or [eax], al
+0x08c43e76:	ret 7000h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c461be[0m
+0x08c461be:	or eax, [eax]
+0x08c461c0:	or [eax], al
+0x08c461c2:	ret 7009h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c461e8[0m
+0x08c461e8:	or eax, [eax]
+0x08c461ea:	or [eax], al
+0x08c461ec:	ret 4809h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c46224[0m
+0x08c46224:	or eax, [eax]
+0x08c46226:	or [eax], al
+0x08c46228:	ret 7009h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c46c91[0m
+0x08c46c91:	add [ebx], cl
+0x08c46c93:	add [eax+eax], al
+0x08c46c96:	ret 7006h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c46d87[0m
+0x08c46d87:	add [ebx], cl
+0x08c46d89:	add [eax+eax], al
+0x08c46d8c:	ret 0a06h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4789d[0m
+0x08c4789d:	add [eax], al
+0x08c4789f:	add [edi], ch
+0x08c478a1:	pop edx
+0x08c478a2:	ret 576dh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4a6e1[0m
+0x08c4a6e1:	add [esi], cl
+0x08c4a6e3:	inc eax
+0x08c4a6e4:	add [eax], al
+0x08c4a6e6:	ret 1000h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4a8fb[0m
+0x08c4a8fb:	pop ebx
+0x08c4a8fc:	add [eax], al
+0x08c4a8fe:	add [eax], al
+0x08c4a900:	ret 0c5ech
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4a92c[0m
+0x08c4a92c:	add [eax], al
+0x08c4a92e:	add [eax], al
+0x08c4a930:	ret 0c4a4h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4ece6[0m
+0x08c4ece6:	add [eax], al
+0x08c4ece8:	add [eax], al
+0x08c4ecea:	ret 0c00h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4f443[0m
+0x08c4f443:	add [eax+eax], dl
+0x08c4f446:	adc al, [eax]
+0x08c4f448:	ret 5bffh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c4f9d0[0m
+0x08c4f9d0:	adc dl, [eax]
+0x08c4f9d2:	ret 12fdh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c509c5[0m
+0x08c509c5:	inc eax
+0x08c509c6:	ret 0e640h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c51f34[0m
+0x08c51f34:	add [eax], al
+0x08c51f36:	add [eax], al
+0x08c51f38:	ret 0c51ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c53cbd[0m
+0x08c53cbd:	pop edx
+0x08c53cbe:	shr dword ptr [esi], 1
+0x08c53cc0:	xchg ebp, eax
+0x08c53cc1:	ret 6a89h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b044[0m
+0x08c5b044:	add [eax], al
+0x08c5b046:	add [eax], al
+0x08c5b048:	ret 0c5afh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b2d0[0m
+0x08c5b2d0:	mov eax, [4fc000eeh]
+0x08c5b2d5:	ret 0e1fbh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b3c0[0m
+0x08c5b3c0:	mov eax, [4fc000e8h]
+0x08c5b3c5:	ret 0e1fbh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b3d0[0m
+0x08c5b3d0:	mov eax, [4fc000e8h]
+0x08c5b3d5:	ret 0e1fbh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b3e0[0m
+0x08c5b3e0:	mov eax, [4fc000e8h]
+0x08c5b3e5:	ret 0e1fbh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b6c8[0m
+0x08c5b6c8:	shr dword ptr [esi], 1
+0x08c5b6ca:	xchg ebp, eax
+0x08c5b6cb:	ret 6a89h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5b906[0m
+0x08c5b906:	dec edx
+0x08c5b907:	ret 0b2f5h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5bd0e[0m
+0x08c5bd0e:	dec ebp
+0x08c5bd0f:	inc edx
+0x08c5bd10:	xchg ecx, eax
+0x08c5bd11:	dec ebp
+0x08c5bd12:	inc ebx
+0x08c5bd13:	ret 0cb77h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5be88[0m
+0x08c5be88:	mov dl, 6dh
+0x08c5be8a:	lock pop ebp
+0x08c5be8c:	ret 0b6c1h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c419[0m
+0x08c5c419:	add [eax], al
+0x08c5c41b:	add [edi], ch
+0x08c5c41d:	pop edx
+0x08c5c41e:	ret 0eac9h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c92c[0m
+0x08c5c92c:	pop ebp
+0x08c5c92d:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c958[0m
+0x08c5c958:	pop ebp
+0x08c5c959:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c982[0m
+0x08c5c982:	add [eax], al
+0x08c5c984:	pop ebp
+0x08c5c985:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c99b[0m
+0x08c5c99b:	mov ebx, 5d000021h
+0x08c5c9a0:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5c9c2[0m
+0x08c5c9c2:	xor eax, eax
+0x08c5c9c4:	inc eax
+0x08c5c9c5:	pop ebp
+0x08c5c9c6:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ca2c[0m
+0x08c5ca2c:	mov [ecx], edx
+0x08c5ca2e:	leave
+0x08c5ca2f:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ca50[0m
+0x08c5ca50:	push edx
+0x08c5ca51:	or al, 5dh
+0x08c5ca53:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ca8f[0m
+0x08c5ca8f:	push ecx
+0x08c5ca90:	adc al, 5dh
+0x08c5ca92:	ret 24h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cab2[0m
+0x08c5cab2:	add [eax], al
+0x08c5cab4:	pop ebp
+0x08c5cab5:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cafc[0m
+0x08c5cafc:	push ecx
+0x08c5cafd:	adc al, 5dh
+0x08c5caff:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cb48[0m
+0x08c5cb48:	pop ebp
+0x08c5cb49:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cb89[0m
+0x08c5cb89:	mov [esi], ecx
+0x08c5cb8b:	pop esi
+0x08c5cb8c:	leave
+0x08c5cb8d:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cbb4[0m
+0x08c5cbb4:	mov eax, [ebp-4]
+0x08c5cbb7:	leave
+0x08c5cbb8:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cbdf[0m
+0x08c5cbdf:	mov eax, [ebp-4]
+0x08c5cbe2:	leave
+0x08c5cbe3:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cc25[0m
+0x08c5cc25:	mov [ecx+18h], eax
+0x08c5cc28:	leave
+0x08c5cc29:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cc50[0m
+0x08c5cc50:	mov eax, [ebp-4]
+0x08c5cc53:	leave
+0x08c5cc54:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5cc96[0m
+0x08c5cc96:	mov [ecx+18h], eax
+0x08c5cc99:	leave
+0x08c5cc9a:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ce96[0m
+0x08c5ce96:	inc eax
+0x08c5ce97:	pop edi
+0x08c5ce98:	pop esi
+0x08c5ce99:	pop ebx
+0x08c5ce9a:	pop ebp
+0x08c5ce9b:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d0ed[0m
+0x08c5d0ed:	test al, 4
+0x08c5d0ef:	add [eax], al
+0x08c5d0f1:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d128[0m
+0x08c5d128:	and esi, eax
+0x08c5d12a:	or [ebp+3], dh
+0x08c5d12d:	ret 0
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d227[0m
+0x08c5d227:	add esp, 0ch
+0x08c5d22a:	pop ebp
+0x08c5d22b:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d288[0m
+0x08c5d288:	add esp, 0ch
+0x08c5d28b:	pop ebp
+0x08c5d28c:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d46c[0m
+0x08c5d46c:	dec eax
+0x08c5d46d:	sbb [edi], cl
+0x08c5d46f:	xchg esp, eax
+0x08c5d470:	ret 0c28bh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d7ed[0m
+0x08c5d7ed:	mov ecx, eax
+0x08c5d7ef:	mov eax, esi
+0x08c5d7f1:	pop esi
+0x08c5d7f2:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d828[0m
+0x08c5d828:	pop eax
+0x08c5d829:	pop ecx
+0x08c5d82a:	pop ebp
+0x08c5d82b:	pop ecx
+0x08c5d82c:	pop ebx
+0x08c5d82d:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d851[0m
+0x08c5d851:	inc esp
+0x08c5d852:	and al, 4
+0x08c5d854:	mul ecx
+0x08c5d856:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d86c[0m
+0x08c5d86c:	mul ecx
+0x08c5d86e:	add edx, ebx
+0x08c5d870:	pop ebx
+0x08c5d871:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d898[0m
+0x08c5d898:	mov eax, [ebp-4]
+0x08c5d89b:	leave
+0x08c5d89c:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d8de[0m
+0x08c5d8de:	mov [ecx+18h], eax
+0x08c5d8e1:	leave
+0x08c5d8e2:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d909[0m
+0x08c5d909:	mov eax, [ebp-4]
+0x08c5d90c:	leave
+0x08c5d90d:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d934[0m
+0x08c5d934:	mov eax, [ebp-4]
+0x08c5d937:	leave
+0x08c5d938:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d95f[0m
+0x08c5d95f:	mov eax, [ebp-4]
+0x08c5d962:	leave
+0x08c5d963:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d98a[0m
+0x08c5d98a:	mov eax, [ebp-4]
+0x08c5d98d:	leave
+0x08c5d98e:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d9b5[0m
+0x08c5d9b5:	mov eax, [ebp-4]
+0x08c5d9b8:	leave
+0x08c5d9b9:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5d9e0[0m
+0x08c5d9e0:	mov eax, [ebp-4]
+0x08c5d9e3:	leave
+0x08c5d9e4:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5da0b[0m
+0x08c5da0b:	mov eax, [ebp-4]
+0x08c5da0e:	leave
+0x08c5da0f:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5da36[0m
+0x08c5da36:	mov eax, [ebp-4]
+0x08c5da39:	leave
+0x08c5da3a:	ret 14h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5da61[0m
+0x08c5da61:	mov eax, [ebp-4]
+0x08c5da64:	leave
+0x08c5da65:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5da8c[0m
+0x08c5da8c:	mov eax, [ebp-4]
+0x08c5da8f:	leave
+0x08c5da90:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dab7[0m
+0x08c5dab7:	mov eax, [ebp-4]
+0x08c5daba:	leave
+0x08c5dabb:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dae2[0m
+0x08c5dae2:	mov eax, [ebp-4]
+0x08c5dae5:	leave
+0x08c5dae6:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5db0d[0m
+0x08c5db0d:	mov eax, [ebp-4]
+0x08c5db10:	leave
+0x08c5db11:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5db38[0m
+0x08c5db38:	mov eax, [ebp-4]
+0x08c5db3b:	leave
+0x08c5db3c:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5db63[0m
+0x08c5db63:	mov eax, [ebp-4]
+0x08c5db66:	leave
+0x08c5db67:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5db8e[0m
+0x08c5db8e:	mov eax, [ebp-4]
+0x08c5db91:	leave
+0x08c5db92:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dbb9[0m
+0x08c5dbb9:	mov eax, [ebp-4]
+0x08c5dbbc:	leave
+0x08c5dbbd:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dbe4[0m
+0x08c5dbe4:	mov eax, [ebp-4]
+0x08c5dbe7:	leave
+0x08c5dbe8:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dc0f[0m
+0x08c5dc0f:	mov eax, [ebp-4]
+0x08c5dc12:	leave
+0x08c5dc13:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dc3a[0m
+0x08c5dc3a:	mov eax, [ebp-4]
+0x08c5dc3d:	leave
+0x08c5dc3e:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dc65[0m
+0x08c5dc65:	mov eax, [ebp-4]
+0x08c5dc68:	leave
+0x08c5dc69:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dc90[0m
+0x08c5dc90:	mov eax, [ebp-4]
+0x08c5dc93:	leave
+0x08c5dc94:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dcbb[0m
+0x08c5dcbb:	mov eax, [ebp-4]
+0x08c5dcbe:	leave
+0x08c5dcbf:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dce6[0m
+0x08c5dce6:	mov eax, [ebp-4]
+0x08c5dce9:	leave
+0x08c5dcea:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dd11[0m
+0x08c5dd11:	mov eax, [ebp-4]
+0x08c5dd14:	leave
+0x08c5dd15:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dd3c[0m
+0x08c5dd3c:	mov eax, [ebp-4]
+0x08c5dd3f:	leave
+0x08c5dd40:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dd67[0m
+0x08c5dd67:	mov eax, [ebp-4]
+0x08c5dd6a:	leave
+0x08c5dd6b:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dd92[0m
+0x08c5dd92:	mov eax, [ebp-4]
+0x08c5dd95:	leave
+0x08c5dd96:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ddbd[0m
+0x08c5ddbd:	mov eax, [ebp-4]
+0x08c5ddc0:	leave
+0x08c5ddc1:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dde8[0m
+0x08c5dde8:	mov eax, [ebp-4]
+0x08c5ddeb:	leave
+0x08c5ddec:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5de13[0m
+0x08c5de13:	mov eax, [ebp-4]
+0x08c5de16:	leave
+0x08c5de17:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5de3e[0m
+0x08c5de3e:	mov eax, [ebp-4]
+0x08c5de41:	leave
+0x08c5de42:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5de69[0m
+0x08c5de69:	mov eax, [ebp-4]
+0x08c5de6c:	leave
+0x08c5de6d:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5de7c[0m
+0x08c5de7c:	inc ebp
+0x08c5de7d:	or [eax+68h], dl
+0x08c5de80:	ret 0c4e7h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5de94[0m
+0x08c5de94:	mov eax, [ebp-4]
+0x08c5de97:	leave
+0x08c5de98:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5debf[0m
+0x08c5debf:	mov eax, [ebp-4]
+0x08c5dec2:	leave
+0x08c5dec3:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5deea[0m
+0x08c5deea:	mov eax, [ebp-4]
+0x08c5deed:	leave
+0x08c5deee:	ret 14h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5df15[0m
+0x08c5df15:	mov eax, [ebp-4]
+0x08c5df18:	leave
+0x08c5df19:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5df40[0m
+0x08c5df40:	mov eax, [ebp-4]
+0x08c5df43:	leave
+0x08c5df44:	ret 3ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5df6b[0m
+0x08c5df6b:	mov eax, [ebp-4]
+0x08c5df6e:	leave
+0x08c5df6f:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5df96[0m
+0x08c5df96:	mov eax, [ebp-4]
+0x08c5df99:	leave
+0x08c5df9a:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dfc1[0m
+0x08c5dfc1:	mov eax, [ebp-4]
+0x08c5dfc4:	leave
+0x08c5dfc5:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5dfec[0m
+0x08c5dfec:	mov eax, [ebp-4]
+0x08c5dfef:	leave
+0x08c5dff0:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e017[0m
+0x08c5e017:	mov eax, [ebp-4]
+0x08c5e01a:	leave
+0x08c5e01b:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e042[0m
+0x08c5e042:	mov eax, [ebp-4]
+0x08c5e045:	leave
+0x08c5e046:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e06d[0m
+0x08c5e06d:	mov eax, [ebp-4]
+0x08c5e070:	leave
+0x08c5e071:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e098[0m
+0x08c5e098:	mov eax, [ebp-4]
+0x08c5e09b:	leave
+0x08c5e09c:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e0c3[0m
+0x08c5e0c3:	mov eax, [ebp-4]
+0x08c5e0c6:	leave
+0x08c5e0c7:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e0ee[0m
+0x08c5e0ee:	mov eax, [ebp-4]
+0x08c5e0f1:	leave
+0x08c5e0f2:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e119[0m
+0x08c5e119:	mov eax, [ebp-4]
+0x08c5e11c:	leave
+0x08c5e11d:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e144[0m
+0x08c5e144:	mov eax, [ebp-4]
+0x08c5e147:	leave
+0x08c5e148:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e16f[0m
+0x08c5e16f:	mov eax, [ebp-4]
+0x08c5e172:	leave
+0x08c5e173:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e19a[0m
+0x08c5e19a:	mov eax, [ebp-4]
+0x08c5e19d:	leave
+0x08c5e19e:	ret 20h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e1c5[0m
+0x08c5e1c5:	mov eax, [ebp-4]
+0x08c5e1c8:	leave
+0x08c5e1c9:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e1f0[0m
+0x08c5e1f0:	mov eax, [ebp-4]
+0x08c5e1f3:	leave
+0x08c5e1f4:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e21b[0m
+0x08c5e21b:	mov eax, [ebp-4]
+0x08c5e21e:	leave
+0x08c5e21f:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e246[0m
+0x08c5e246:	mov eax, [ebp-4]
+0x08c5e249:	leave
+0x08c5e24a:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e271[0m
+0x08c5e271:	mov eax, [ebp-4]
+0x08c5e274:	leave
+0x08c5e275:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e29c[0m
+0x08c5e29c:	mov eax, [ebp-4]
+0x08c5e29f:	leave
+0x08c5e2a0:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e2c7[0m
+0x08c5e2c7:	mov eax, [ebp-4]
+0x08c5e2ca:	leave
+0x08c5e2cb:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e2f2[0m
+0x08c5e2f2:	mov eax, [ebp-4]
+0x08c5e2f5:	leave
+0x08c5e2f6:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e31d[0m
+0x08c5e31d:	mov eax, [ebp-4]
+0x08c5e320:	leave
+0x08c5e321:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e348[0m
+0x08c5e348:	mov eax, [ebp-4]
+0x08c5e34b:	leave
+0x08c5e34c:	ret 20h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e373[0m
+0x08c5e373:	mov eax, [ebp-4]
+0x08c5e376:	leave
+0x08c5e377:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e39e[0m
+0x08c5e39e:	mov eax, [ebp-4]
+0x08c5e3a1:	leave
+0x08c5e3a2:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e3c9[0m
+0x08c5e3c9:	mov eax, [ebp-4]
+0x08c5e3cc:	leave
+0x08c5e3cd:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e3f4[0m
+0x08c5e3f4:	mov eax, [ebp-4]
+0x08c5e3f7:	leave
+0x08c5e3f8:	ret 14h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e41f[0m
+0x08c5e41f:	mov eax, [ebp-4]
+0x08c5e422:	leave
+0x08c5e423:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e44a[0m
+0x08c5e44a:	mov eax, [ebp-4]
+0x08c5e44d:	leave
+0x08c5e44e:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e475[0m
+0x08c5e475:	mov eax, [ebp-4]
+0x08c5e478:	leave
+0x08c5e479:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e4a0[0m
+0x08c5e4a0:	mov eax, [ebp-4]
+0x08c5e4a3:	leave
+0x08c5e4a4:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e4cb[0m
+0x08c5e4cb:	mov eax, [ebp-4]
+0x08c5e4ce:	leave
+0x08c5e4cf:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e4f6[0m
+0x08c5e4f6:	mov eax, [ebp-4]
+0x08c5e4f9:	leave
+0x08c5e4fa:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e521[0m
+0x08c5e521:	mov eax, [ebp-4]
+0x08c5e524:	leave
+0x08c5e525:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e54c[0m
+0x08c5e54c:	mov eax, [ebp-4]
+0x08c5e54f:	leave
+0x08c5e550:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e577[0m
+0x08c5e577:	mov eax, [ebp-4]
+0x08c5e57a:	leave
+0x08c5e57b:	ret 1ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e5a2[0m
+0x08c5e5a2:	mov eax, [ebp-4]
+0x08c5e5a5:	leave
+0x08c5e5a6:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e5cd[0m
+0x08c5e5cd:	mov eax, [ebp-4]
+0x08c5e5d0:	leave
+0x08c5e5d1:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e5f8[0m
+0x08c5e5f8:	mov eax, [ebp-4]
+0x08c5e5fb:	leave
+0x08c5e5fc:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e623[0m
+0x08c5e623:	mov eax, [ebp-4]
+0x08c5e626:	leave
+0x08c5e627:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e64e[0m
+0x08c5e64e:	mov eax, [ebp-4]
+0x08c5e651:	leave
+0x08c5e652:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e679[0m
+0x08c5e679:	mov eax, [ebp-4]
+0x08c5e67c:	leave
+0x08c5e67d:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e6a4[0m
+0x08c5e6a4:	mov eax, [ebp-4]
+0x08c5e6a7:	leave
+0x08c5e6a8:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e6cf[0m
+0x08c5e6cf:	mov eax, [ebp-4]
+0x08c5e6d2:	leave
+0x08c5e6d3:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e6fa[0m
+0x08c5e6fa:	mov eax, [ebp-4]
+0x08c5e6fd:	leave
+0x08c5e6fe:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e725[0m
+0x08c5e725:	mov eax, [ebp-4]
+0x08c5e728:	leave
+0x08c5e729:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e750[0m
+0x08c5e750:	mov eax, [ebp-4]
+0x08c5e753:	leave
+0x08c5e754:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e77b[0m
+0x08c5e77b:	mov eax, [ebp-4]
+0x08c5e77e:	leave
+0x08c5e77f:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e7a6[0m
+0x08c5e7a6:	mov eax, [ebp-4]
+0x08c5e7a9:	leave
+0x08c5e7aa:	ret 1ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e7d1[0m
+0x08c5e7d1:	mov eax, [ebp-4]
+0x08c5e7d4:	leave
+0x08c5e7d5:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e7fc[0m
+0x08c5e7fc:	mov eax, [ebp-4]
+0x08c5e7ff:	leave
+0x08c5e800:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e827[0m
+0x08c5e827:	mov eax, [ebp-4]
+0x08c5e82a:	leave
+0x08c5e82b:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e852[0m
+0x08c5e852:	mov eax, [ebp-4]
+0x08c5e855:	leave
+0x08c5e856:	ret 1ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e87d[0m
+0x08c5e87d:	mov eax, [ebp-4]
+0x08c5e880:	leave
+0x08c5e881:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e8ae[0m
+0x08c5e8ae:	mov [ecx+3ch], eax
+0x08c5e8b1:	leave
+0x08c5e8b2:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e8d9[0m
+0x08c5e8d9:	mov eax, [ebp-4]
+0x08c5e8dc:	leave
+0x08c5e8dd:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e913[0m
+0x08c5e913:	mov [ecx+10h], eax
+0x08c5e916:	leave
+0x08c5e917:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e922[0m
+0x08c5e922:	mov ebp, esp
+0x08c5e924:	xor eax, eax
+0x08c5e926:	pop ebp
+0x08c5e927:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e94e[0m
+0x08c5e94e:	mov eax, [ebp-4]
+0x08c5e951:	leave
+0x08c5e952:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e979[0m
+0x08c5e979:	mov eax, [ebp-4]
+0x08c5e97c:	leave
+0x08c5e97d:	ret 24h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5e9d1[0m
+0x08c5e9d1:	mov [ecx+24h], eax
+0x08c5e9d4:	leave
+0x08c5e9d5:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ea01[0m
+0x08c5ea01:	mov [ecx+3ch], eax
+0x08c5ea04:	leave
+0x08c5ea05:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ea4d[0m
+0x08c5ea4d:	mov eax, esi
+0x08c5ea4f:	pop esi
+0x08c5ea50:	leave
+0x08c5ea51:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ea7a[0m
+0x08c5ea7a:	pop ebp
+0x08c5ea7b:	ret 18h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5eaa2[0m
+0x08c5eaa2:	mov eax, [ebp-4]
+0x08c5eaa5:	leave
+0x08c5eaa6:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5eacd[0m
+0x08c5eacd:	mov eax, [ebp-4]
+0x08c5ead0:	leave
+0x08c5ead1:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5eb07[0m
+0x08c5eb07:	mov [ecx+10h], eax
+0x08c5eb0a:	leave
+0x08c5eb0b:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5eb41[0m
+0x08c5eb41:	mov [ecx+10h], eax
+0x08c5eb44:	leave
+0x08c5eb45:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5edfc[0m
+0x08c5edfc:	sub eax, [ebp+0ch]
+0x08c5edff:	leave
+0x08c5ee00:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ee9b[0m
+0x08c5ee9b:	mov eax, edi
+0x08c5ee9d:	pop edi
+0x08c5ee9e:	pop esi
+0x08c5ee9f:	pop ebp
+0x08c5eea0:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ef17[0m
+0x08c5ef17:	add eax, esi
+0x08c5ef19:	pop esi
+0x08c5ef1a:	pop ebp
+0x08c5ef1b:	ret 4
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ef35[0m
+0x08c5ef35:	pop ebp
+0x08c5ef36:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ef47[0m
+0x08c5ef47:	adc al, ch
+0x08c5ef49:	ret 0fffeh
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ef50[0m
+0x08c5ef50:	lea eax, [eax+4+ecx]
+0x08c5ef54:	pop ebp
+0x08c5ef55:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ef79[0m
+0x08c5ef79:	pop edi
+0x08c5ef7a:	pop ebp
+0x08c5ef7b:	ret 0ch
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5ef93[0m
+0x08c5ef93:	pop ebp
+0x08c5ef94:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c5f0c5[0m
+0x08c5f0c5:	test byte ptr [ecx], 0
+0x08c5f0c8:	ret 1f6h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c600f8[0m
+0x08c600f8:	xor eax, eax
+0x08c600fa:	pop edi
+0x08c600fb:	pop esi
+0x08c600fc:	leave
+0x08c600fd:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c601b0[0m
+0x08c601b0:	xor eax, eax
+0x08c601b2:	pop edi
+0x08c601b3:	pop esi
+0x08c601b4:	leave
+0x08c601b5:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c601e3[0m
+0x08c601e3:	xor eax, eax
+0x08c601e5:	pop edi
+0x08c601e6:	pop esi
+0x08c601e7:	pop ebp
+0x08c601e8:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c602e3[0m
+0x08c602e3:	xor eax, eax
+0x08c602e5:	pop edi
+0x08c602e6:	pop esi
+0x08c602e7:	leave
+0x08c602e8:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c603e3[0m
+0x08c603e3:	xor eax, eax
+0x08c603e5:	pop edi
+0x08c603e6:	pop esi
+0x08c603e7:	leave
+0x08c603e8:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c6052c[0m
+0x08c6052c:	xor eax, eax
+0x08c6052e:	pop edi
+0x08c6052f:	pop esi
+0x08c60530:	leave
+0x08c60531:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c6079d[0m
+0x08c6079d:	xor eax, eax
+0x08c6079f:	pop edi
+0x08c607a0:	pop esi
+0x08c607a1:	leave
+0x08c607a2:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c607d0[0m
+0x08c607d0:	xor eax, eax
+0x08c607d2:	pop edi
+0x08c607d3:	pop esi
+0x08c607d4:	pop ebp
+0x08c607d5:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c609ad[0m
+0x08c609ad:	xor eax, eax
+0x08c609af:	pop edi
+0x08c609b0:	pop esi
+0x08c609b1:	leave
+0x08c609b2:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c609e0[0m
+0x08c609e0:	xor eax, eax
+0x08c609e2:	pop edi
+0x08c609e3:	pop esi
+0x08c609e4:	pop ebp
+0x08c609e5:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c60b73[0m
+0x08c60b73:	xor eax, eax
+0x08c60b75:	pop edi
+0x08c60b76:	pop esi
+0x08c60b77:	leave
+0x08c60b78:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c60cbc[0m
+0x08c60cbc:	xor eax, eax
+0x08c60cbe:	pop edi
+0x08c60cbf:	pop esi
+0x08c60cc0:	leave
+0x08c60cc1:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c60cef[0m
+0x08c60cef:	xor eax, eax
+0x08c60cf1:	pop edi
+0x08c60cf2:	pop esi
+0x08c60cf3:	pop ebp
+0x08c60cf4:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c60da7[0m
+0x08c60da7:	xor eax, eax
+0x08c60da9:	pop edi
+0x08c60daa:	pop esi
+0x08c60dab:	leave
+0x08c60dac:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c60dda[0m
+0x08c60dda:	xor eax, eax
+0x08c60ddc:	pop edi
+0x08c60ddd:	pop esi
+0x08c60dde:	pop ebp
+0x08c60ddf:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c60f6d[0m
+0x08c60f6d:	xor eax, eax
+0x08c60f6f:	pop edi
+0x08c60f70:	pop esi
+0x08c60f71:	leave
+0x08c60f72:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c610b6[0m
+0x08c610b6:	xor eax, eax
+0x08c610b8:	pop edi
+0x08c610b9:	pop esi
+0x08c610ba:	leave
+0x08c610bb:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c610e9[0m
+0x08c610e9:	xor eax, eax
+0x08c610eb:	pop edi
+0x08c610ec:	pop esi
+0x08c610ed:	pop ebp
+0x08c610ee:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c611e9[0m
+0x08c611e9:	xor eax, eax
+0x08c611eb:	pop edi
+0x08c611ec:	pop esi
+0x08c611ed:	leave
+0x08c611ee:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c6137c[0m
+0x08c6137c:	xor eax, eax
+0x08c6137e:	pop edi
+0x08c6137f:	pop esi
+0x08c61380:	leave
+0x08c61381:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c6150f[0m
+0x08c6150f:	xor eax, eax
+0x08c61511:	pop edi
+0x08c61512:	pop esi
+0x08c61513:	leave
+0x08c61514:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c6160f[0m
+0x08c6160f:	xor eax, eax
+0x08c61611:	pop edi
+0x08c61612:	pop esi
+0x08c61613:	leave
+0x08c61614:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c6170f[0m
+0x08c6170f:	xor eax, eax
+0x08c61711:	pop edi
+0x08c61712:	pop esi
+0x08c61713:	leave
+0x08c61714:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c6180f[0m
+0x08c6180f:	xor eax, eax
+0x08c61811:	pop edi
+0x08c61812:	pop esi
+0x08c61813:	leave
+0x08c61814:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c619a2[0m
+0x08c619a2:	xor eax, eax
+0x08c619a4:	pop edi
+0x08c619a5:	pop esi
+0x08c619a6:	leave
+0x08c619a7:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c619d5[0m
+0x08c619d5:	xor eax, eax
+0x08c619d7:	pop edi
+0x08c619d8:	pop esi
+0x08c619d9:	pop ebp
+0x08c619da:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c61a08[0m
+0x08c61a08:	xor eax, eax
+0x08c61a0a:	pop edi
+0x08c61a0b:	pop esi
+0x08c61a0c:	pop ebp
+0x08c61a0d:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c61b08[0m
+0x08c61b08:	xor eax, eax
+0x08c61b0a:	pop edi
+0x08c61b0b:	pop esi
+0x08c61b0c:	leave
+0x08c61b0d:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c61c08[0m
+0x08c61c08:	xor eax, eax
+0x08c61c0a:	pop edi
+0x08c61c0b:	pop esi
+0x08c61c0c:	leave
+0x08c61c0d:	ret 8
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c61c6c[0m
+0x08c61c6c:	mov eax, esi
+0x08c61c6e:	pop esi
+0x08c61c6f:	leave
+0x08c61c70:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c61c96[0m
+0x08c61c96:	push esi
+0x08c61c97:	sbb [esi+5dh], bl
+0x08c61c9a:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c61cf4[0m
+0x08c61cf4:	mov eax, edi
+0x08c61cf6:	pop edi
+0x08c61cf7:	pop esi
+0x08c61cf8:	leave
+0x08c61cf9:	ret 10h
+
+./DLLs/ieproxy.dll gadget: [1m[32m0x08c61d1f[0m
+0x08c61d1f:	push esi
+0x08c61d20:	and [esi+5dh], bl
+0x08c61d23:	ret 10h
+
+Found [1m[32m262[0m gadgets total
+

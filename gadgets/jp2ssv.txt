@@ -1,0 +1,968 @@
+Collecting gadgets from [1m[36m./DLLs/jp2ssv.dll[0m
+Found [32m180[0m gadgets
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441026[0m
+0x6d441026:	xor eax, eax
+0x6d441028:	inc eax
+0x6d441029:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44102a[0m
+0x6d44102a:	xor eax, eax
+0x6d44102c:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441077[0m
+0x6d441077:	lock mov eax, esi
+0x6d44107a:	pop esi
+0x6d44107b:	leave
+0x6d44107c:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44107d[0m
+0x6d44107d:	push 3
+0x6d44107f:	pop eax
+0x6d441080:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4410cf[0m
+0x6d4410cf:	leave
+0x6d4410d0:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4410f3[0m
+0x6d4410f3:	rep stosd
+0x6d4410f5:	mov eax, edx
+0x6d4410f7:	pop edi
+0x6d4410f8:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44111d[0m
+0x6d44111d:	xor eax, eax
+0x6d44111f:	inc eax
+0x6d441120:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441144[0m
+0x6d441144:	cmpsd
+0x6d441145:	dec eax
+0x6d441146:	add [eax], al
+0x6d441148:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441147[0m
+0x6d441147:	add bl, al
+0x6d441149:	mov eax, [ecx+8]
+0x6d44114c:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4411f1[0m
+0x6d4411f1:	setnz al
+0x6d4411f4:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4411f5[0m
+0x6d4411f5:	mov eax, 80004005h
+0x6d4411fa:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4411fb[0m
+0x6d4411fb:	mov eax, 80004005h
+0x6d441200:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441309[0m
+0x6d441309:	pop edi
+0x6d44130a:	mov eax, esi
+0x6d44130c:	pop esi
+0x6d44130d:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441341[0m
+0x6d441341:	and dword ptr [edi], 0
+0x6d441344:	pop edi
+0x6d441345:	pop esi
+0x6d441346:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4413b4[0m
+0x6d4413b4:	mov byte ptr [esi+4], 0
+0x6d4413b8:	pop esi
+0x6d4413b9:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4413ce[0m
+0x6d4413ce:	mov eax, esi
+0x6d4413d0:	pop esi
+0x6d4413d1:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4413d7[0m
+0x6d4413d7:	adc eax, iat_InterlockedIncrement
+0x6d4413dc:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4413e2[0m
+0x6d4413e2:	adc eax, iat_InterlockedDecrement
+0x6d4413e7:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4418d3[0m
+0x6d4418d3:	or al, 8bh
+0x6d4418d5:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441935[0m
+0x6d441935:	setz cl
+0x6d441938:	mov eax, ecx
+0x6d44193a:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441951[0m
+0x6d441951:	inc eax
+0x6d441952:	add [eax], al
+0x6d441954:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441964[0m
+0x6d441964:	or eax, 80070000h
+0x6d441969:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441990[0m
+0x6d441990:	and word ptr [ecx], 0
+0x6d441994:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4419db[0m
+0x6d4419db:	add [eax], al
+0x6d4419dd:	add [eax], al
+0x6d4419df:	leave
+0x6d4419e0:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441a1b[0m
+0x6d441a1b:	or [eax], al
+0x6d441a1e:	pop edi
+0x6d441a1f:	pop esi
+0x6d441a20:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441a61[0m
+0x6d441a61:	pop edi
+0x6d441a62:	xor eax, eax
+0x6d441a64:	pop esi
+0x6d441a65:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441ab1[0m
+0x6d441ab1:	add [eax], al
+0x6d441ab3:	add [eax], al
+0x6d441ab5:	leave
+0x6d441ab6:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441bf4[0m
+0x6d441bf4:	add ds:[ebp-13h], dh
+0x6d441bf8:	pop esi
+0x6d441bf9:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441c6e[0m
+0x6d441c6e:	mov eax, xref_6d441c44h
+0x6d441c73:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441c74[0m
+0x6d441c74:	mov eax, xref_6d441c7ah
+0x6d441c79:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441d96[0m
+0x6d441d96:	mov [eax+0ch], ecx
+0x6d441d99:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442034[0m
+0x6d442034:	mov eax, xref_6d442048h
+0x6d442039:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442130[0m
+0x6d442130:	mov eax, [3b000000h]
+0x6d442135:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4421f3[0m
+0x6d4421f3:	xor eax, eax
+0x6d4421f5:	pop esi
+0x6d4421f6:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4421fa[0m
+0x6d4421fa:	mov esp, 5e6d4464h
+0x6d4421ff:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442226[0m
+0x6d442226:	pop esi
+0x6d442227:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442324[0m
+0x6d442324:	xor eax, eax
+0x6d442326:	inc eax
+0x6d442327:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442328[0m
+0x6d442328:	xor eax, eax
+0x6d44232a:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4424b8[0m
+0x6d4424b8:	adc eax, iat_CoTaskMemFree
+0x6d4424bd:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4428a0[0m
+0x6d4428a0:	add eax, ss:[eax]
+0x6d4428a3:	add [ebx], bh
+0x6d4428a5:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442a6f[0m
+0x6d442a6f:	pop ebp
+0x6d442a70:	or [eax+3bh+edx], dh
+0x6d442a74:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442bbd[0m
+0x6d442bbd:	or eax, 80070000h
+0x6d442bc2:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442bd5[0m
+0x6d442bd5:	and dword ptr [esi], 0
+0x6d442bd8:	pop esi
+0x6d442bd9:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442df2[0m
+0x6d442df2:	mov eax, xref_6d442e04h
+0x6d442df7:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442fb6[0m
+0x6d442fb6:	mov eax, xref_6d442fcah
+0x6d442fbb:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443198[0m
+0x6d443198:	xor eax, eax
+0x6d44319a:	pop esi
+0x6d44319b:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4431ab[0m
+0x6d4431ab:	xor eax, eax
+0x6d4431ad:	inc eax
+0x6d4431ae:	pop esi
+0x6d4431af:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4431cc[0m
+0x6d4431cc:	sub eax, 57h
+0x6d4431cf:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4431d0[0m
+0x6d4431d0:	sub eax, 37h
+0x6d4431d3:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4431d4[0m
+0x6d4431d4:	sub eax, 30h
+0x6d4431d7:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4431d6[0m
+0x6d4431d6:	xor bl, al
+0x6d4431d8:	xor al, al
+0x6d4431da:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4431e3[0m
+0x6d4431e3:	pop ecx
+0x6d4431e4:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44320f[0m
+0x6d44320f:	enter 0ffffh, 0ffh
+0x6d443213:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443727[0m
+0x6d443727:	add [eax], al
+0x6d443729:	pop ecx
+0x6d44372a:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44375b[0m
+0x6d44375b:	xor eax, eax
+0x6d44375d:	pop edi
+0x6d44375e:	inc eax
+0x6d44375f:	pop esi
+0x6d443760:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443772[0m
+0x6d443772:	add esp, 10h
+0x6d443775:	pop esi
+0x6d443776:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4437c7[0m
+0x6d4437c7:	xor eax, eax
+0x6d4437c9:	pop esi
+0x6d4437ca:	leave
+0x6d4437cb:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443852[0m
+0x6d443852:	add esp, 0ch
+0x6d443855:	pop esi
+0x6d443856:	leave
+0x6d443857:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443a21[0m
+0x6d443a21:	enter 5e5fh, 5bh
+0x6d443a25:	leave
+0x6d443a26:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443aa0[0m
+0x6d443aa0:	inc edi
+0x6d443aa1:	add [edi+3ah], eax
+0x6d443aa4:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443aaf[0m
+0x6d443aaf:	inc edi
+0x6d443ab0:	add [edi+3ah], eax
+0x6d443ab3:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443acb[0m
+0x6d443acb:	inc edi
+0x6d443acc:	add [edi+3ah], eax
+0x6d443acf:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443ae8[0m
+0x6d443ae8:	inc edi
+0x6d443ae9:	add [edi+3ah], eax
+0x6d443aec:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443b6e[0m
+0x6d443b6e:	xor eax, eax
+0x6d443b70:	pop esi
+0x6d443b71:	pop ebx
+0x6d443b72:	leave
+0x6d443b73:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443b9b[0m
+0x6d443b9b:	add esp, 20h
+0x6d443b9e:	pop ebp
+0x6d443b9f:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443bc7[0m
+0x6d443bc7:	add esp, 20h
+0x6d443bca:	pop ebp
+0x6d443bcb:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443bf3[0m
+0x6d443bf3:	add esp, 20h
+0x6d443bf6:	pop ebp
+0x6d443bf7:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443c1d[0m
+0x6d443c1d:	add esp, 1ch
+0x6d443c20:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443c44[0m
+0x6d443c44:	add esp, 18h
+0x6d443c47:	pop ebp
+0x6d443c48:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443c60[0m
+0x6d443c60:	add esp, 14h
+0x6d443c63:	pop ebp
+0x6d443c64:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443ccd[0m
+0x6d443ccd:	xor eax, eax
+0x6d443ccf:	leave
+0x6d443cd0:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443d22[0m
+0x6d443d22:	pop ecx
+0x6d443d23:	neg eax
+0x6d443d25:	leave
+0x6d443d26:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443e25[0m
+0x6d443e25:	pop edi
+0x6d443e26:	pop esi
+0x6d443e27:	pop ebx
+0x6d443e28:	leave
+0x6d443e29:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443f9c[0m
+0x6d443f9c:	add [eax], al
+0x6d443f9e:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443fcb[0m
+0x6d443fcb:	mov [ebp-20h], ebx
+0x6d443fce:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443ff7[0m
+0x6d443ff7:	mov eax, ecx
+0x6d443ff9:	leave
+0x6d443ffa:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4440eb[0m
+0x6d4440eb:	pop ebx
+0x6d4440ec:	pop edi
+0x6d4440ed:	pop esi
+0x6d4440ee:	leave
+0x6d4440ef:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4441de[0m
+0x6d4441de:	xor eax, eax
+0x6d4441e0:	pop esi
+0x6d4441e1:	leave
+0x6d4441e2:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444337[0m
+0x6d444337:	mov eax, esi
+0x6d444339:	pop esi
+0x6d44433a:	pop ebx
+0x6d44433b:	leave
+0x6d44433c:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44443b[0m
+0x6d44443b:	pop edi
+0x6d44443c:	pop esi
+0x6d44443d:	pop ebx
+0x6d44443e:	leave
+0x6d44443f:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4444ac[0m
+0x6d4444ac:	pop edi
+0x6d4444ad:	mov eax, esi
+0x6d4444af:	pop esi
+0x6d4444b0:	leave
+0x6d4444b1:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444513[0m
+0x6d444513:	pop ecx
+0x6d444514:	leave
+0x6d444515:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444900[0m
+0x6d444900:	pop edi
+0x6d444901:	pop esi
+0x6d444902:	pop ebx
+0x6d444903:	leave
+0x6d444904:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444b25[0m
+0x6d444b25:	pop edi
+0x6d444b26:	pop esi
+0x6d444b27:	pop ebx
+0x6d444b28:	leave
+0x6d444b29:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444dd1[0m
+0x6d444dd1:	div dword ptr [esp-75h+eax]
+0x6d444dd5:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444de0[0m
+0x6d444de0:	pop edi
+0x6d444de1:	pop esi
+0x6d444de2:	pop ebx
+0x6d444de3:	leave
+0x6d444de4:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444e0a[0m
+0x6d444e0a:	movsd
+0x6d444e0b:	movsb
+0x6d444e0c:	pop edi
+0x6d444e0d:	pop esi
+0x6d444e0e:	pop ebp
+0x6d444e0f:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444e34[0m
+0x6d444e34:	add esp, 20h
+0x6d444e37:	pop ebp
+0x6d444e38:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444f28[0m
+0x6d444f28:	or al, 5fh
+0x6d444f2a:	pop esi
+0x6d444f2b:	pop ebx
+0x6d444f2c:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d444fd9[0m
+0x6d444fd9:	or al, 5fh
+0x6d444fdb:	pop esi
+0x6d444fdc:	pop ebx
+0x6d444fdd:	pop ebp
+0x6d444fde:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445055[0m
+0x6d445055:	setz al
+0x6d445058:	leave
+0x6d445059:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4450b2[0m
+0x6d4450b2:	add ebp, 78h
+0x6d4450b5:	leave
+0x6d4450b6:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4450ce[0m
+0x6d4450ce:	leave
+0x6d4450cf:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44511c[0m
+0x6d44511c:	leave
+0x6d44511d:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445197[0m
+0x6d445197:	pop edi
+0x6d445198:	pop ebx
+0x6d445199:	leave
+0x6d44519a:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4452e5[0m
+0x6d4452e5:	inc eax
+0x6d4452e6:	pop edi
+0x6d4452e7:	pop esi
+0x6d4452e8:	pop ebx
+0x6d4452e9:	leave
+0x6d4452ea:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445321[0m
+0x6d445321:	mov eax, esi
+0x6d445323:	pop esi
+0x6d445324:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44547a[0m
+0x6d44547a:	pop esi
+0x6d44547b:	mov eax, ebx
+0x6d44547d:	pop ebx
+0x6d44547e:	leave
+0x6d44547f:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445551[0m
+0x6d445551:	mov eax, esi
+0x6d445553:	pop esi
+0x6d445554:	pop ebx
+0x6d445555:	leave
+0x6d445556:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445644[0m
+0x6d445644:	pop edi
+0x6d445645:	pop esi
+0x6d445646:	pop ebx
+0x6d445647:	leave
+0x6d445648:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445661[0m
+0x6d445661:	adc eax, iat_HeapFree
+0x6d445666:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445669[0m
+0x6d445669:	adc eax, xref_6d44911ch
+0x6d44566e:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445682[0m
+0x6d445682:	pop ebx
+0x6d445683:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44571f[0m
+0x6d44571f:	pop edi
+0x6d445720:	pop esi
+0x6d445721:	pop ebp
+0x6d445722:	pop ebx
+0x6d445723:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44576f[0m
+0x6d44576f:	and al, 5eh
+0x6d445771:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445794[0m
+0x6d445794:	xor eax, eax
+0x6d445796:	pop esi
+0x6d445797:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4457d9[0m
+0x6d4457d9:	mov eax, esi
+0x6d4457db:	pop edi
+0x6d4457dc:	pop esi
+0x6d4457dd:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445824[0m
+0x6d445824:	and dword ptr [esi], 0
+0x6d445827:	pop ebx
+0x6d445828:	pop esi
+0x6d445829:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445865[0m
+0x6d445865:	pop edi
+0x6d445866:	mov eax, esi
+0x6d445868:	pop esi
+0x6d445869:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445881[0m
+0x6d445881:	and dword ptr [esi+8], 0
+0x6d445885:	pop esi
+0x6d445886:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44589d[0m
+0x6d44589d:	mov eax, esi
+0x6d44589f:	pop esi
+0x6d4458a0:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44595d[0m
+0x6d44595d:	add ebp, 78h
+0x6d445960:	leave
+0x6d445961:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445966[0m
+0x6d445966:	or dh, dh
+0x6d445968:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44597f[0m
+0x6d44597f:	add [eax], al
+0x6d445981:	add dh, dh
+0x6d445983:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445997[0m
+0x6d445997:	add eax, [eax]
+0x6d445999:	add dh, dh
+0x6d44599b:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4459e9[0m
+0x6d4459e9:	mov [0], eax
+0x6d4459ee:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4459fa[0m
+0x6d4459fa:	pop edi
+0x6d4459fb:	pop esi
+0x6d4459fc:	pop ebx
+0x6d4459fd:	leave
+0x6d4459fe:	push ecx
+0x6d4459ff:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445a65[0m
+0x6d445a65:	add [eax], al
+0x6d445a67:	mov eax, [ebp-24h]
+0x6d445a6a:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445af0[0m
+0x6d445af0:	xchg esp, eax
+0x6d445af1:	mov eax, [eax]
+0x6d445af3:	push eax
+0x6d445af4:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445b18[0m
+0x6d445b18:	mov eax, [eax+4]
+0x6d445b1b:	push eax
+0x6d445b1c:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445b49[0m
+0x6d445b49:	lea ebp, [esp+0ch]
+0x6d445b4d:	push eax
+0x6d445b4e:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445b76[0m
+0x6d445b76:	add [eax], al
+0x6d445b78:	add esp, 0ch
+0x6d445b7b:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445b88[0m
+0x6d445b88:	sal bh, 0d8h
+0x6d445b8b:	pop ecx
+0x6d445b8c:	dec eax
+0x6d445b8d:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445d25[0m
+0x6d445d25:	add [eax], al
+0x6d445d27:	add [ecx+59h], bl
+0x6d445d2a:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445d59[0m
+0x6d445d59:	xor eax, eax
+0x6d445d5b:	inc eax
+0x6d445d5c:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445dc7[0m
+0x6d445dc7:	xor eax, eax
+0x6d445dc9:	inc eax
+0x6d445dca:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445e0b[0m
+0x6d445e0b:	xor eax, eax
+0x6d445e0d:	inc eax
+0x6d445e0e:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445e8b[0m
+0x6d445e8b:	pop esi
+0x6d445e8c:	leave
+0x6d445e8d:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445f64[0m
+0x6d445f64:	pop ecx
+0x6d445f65:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445f7a[0m
+0x6d445f7a:	pop ecx
+0x6d445f7b:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445f90[0m
+0x6d445f90:	pop ecx
+0x6d445f91:	ret
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4411a3[0m
+0x6d4411a3:	xor eax, eax
+0x6d4411a5:	pop esi
+0x6d4411a6:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4411e2[0m
+0x6d4411e2:	or [eax], al
+0x6d4411e4:	pop esi
+0x6d4411e5:	pop ebx
+0x6d4411e6:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441238[0m
+0x6d441238:	add [eax], al
+0x6d44123a:	xor eax, eax
+0x6d44123c:	inc eax
+0x6d44123d:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441429[0m
+0x6d441429:	mov eax, edi
+0x6d44142b:	pop edi
+0x6d44142c:	pop esi
+0x6d44142d:	pop ebx
+0x6d44142e:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441431[0m
+0x6d441431:	mov eax, 80004005h
+0x6d441436:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441465[0m
+0x6d441465:	pop ecx
+0x6d441466:	mov eax, esi
+0x6d441468:	pop esi
+0x6d441469:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44153b[0m
+0x6d44153b:	or [edi+5eh], bl
+0x6d44153e:	pop ebx
+0x6d44153f:	leave
+0x6d441540:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4415f0[0m
+0x6d4415f0:	mov eax, ebx
+0x6d4415f2:	pop ebx
+0x6d4415f3:	leave
+0x6d4415f4:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4418f4[0m
+0x6d4418f4:	pop edi
+0x6d4418f5:	pop esi
+0x6d4418f6:	pop ebx
+0x6d4418f7:	leave
+0x6d4418f8:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4419e1[0m
+0x6d4419e1:	mov eax, 80004001h
+0x6d4419e6:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4419e7[0m
+0x6d4419e7:	or al, 0
+0x6d4419e9:	xor eax, eax
+0x6d4419eb:	inc eax
+0x6d4419ec:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4419ed[0m
+0x6d4419ed:	add al, 0
+0x6d4419ef:	xor eax, eax
+0x6d4419f1:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441acc[0m
+0x6d441acc:	pop ecx
+0x6d441acd:	mov eax, esi
+0x6d441acf:	pop esi
+0x6d441ad0:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441bd8[0m
+0x6d441bd8:	add [edi+5eh], bl
+0x6d441bdb:	pop ebx
+0x6d441bdc:	leave
+0x6d441bdd:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441cfa[0m
+0x6d441cfa:	add [eax], al
+0x6d441cfc:	add [ebx-37h], bl
+0x6d441cff:	ret 8
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441d55[0m
+0x6d441d55:	xor eax, eax
+0x6d441d57:	inc eax
+0x6d441d58:	pop edi
+0x6d441d59:	pop esi
+0x6d441d5a:	ret 8
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441d65[0m
+0x6d441d65:	add al, [ebx]
+0x6d441d67:	ret 0a74h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441d75[0m
+0x6d441d75:	inc ecx
+0x6d441d76:	add al, 3
+0x6d441d78:	ret 874h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441d7f[0m
+0x6d441d7f:	mov ecx, [ecx]
+0x6d441d81:	mov [eax], ecx
+0x6d441d83:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d441ee9[0m
+0x6d441ee9:	add [edi+5eh], bl
+0x6d441eec:	pop ebx
+0x6d441eed:	leave
+0x6d441eee:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4420d0[0m
+0x6d4420d0:	add [edi+5eh], bl
+0x6d4420d3:	pop ebx
+0x6d4420d4:	leave
+0x6d4420d5:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4421a1[0m
+0x6d4421a1:	mov eax, edi
+0x6d4421a3:	pop edi
+0x6d4421a4:	pop esi
+0x6d4421a5:	leave
+0x6d4421a6:	ret 8
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442303[0m
+0x6d442303:	pop edi
+0x6d442304:	pop ebx
+0x6d442305:	pop esi
+0x6d442306:	leave
+0x6d442307:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44247e[0m
+0x6d44247e:	add [eax], al
+0x6d442480:	add [eax], al
+0x6d442482:	leave
+0x6d442483:	ret 8
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4424ac[0m
+0x6d4424ac:	add [eax], al
+0x6d4424ae:	mov eax, esi
+0x6d4424b0:	pop esi
+0x6d4424b1:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44251f[0m
+0x6d44251f:	pop edi
+0x6d442520:	inc eax
+0x6d442521:	pop esi
+0x6d442522:	pop ebx
+0x6d442523:	ret 8
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442537[0m
+0x6d442537:	xor eax, eax
+0x6d442539:	pop esi
+0x6d44253a:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442588[0m
+0x6d442588:	or eax, -1
+0x6d44258b:	pop edi
+0x6d44258c:	pop esi
+0x6d44258d:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442647[0m
+0x6d442647:	pop edi
+0x6d442648:	pop esi
+0x6d442649:	pop ebx
+0x6d44264a:	leave
+0x6d44264b:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442b3d[0m
+0x6d442b3d:	add [eax], al
+0x6d442b3f:	add [eax], al
+0x6d442b41:	leave
+0x6d442b42:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442c08[0m
+0x6d442c08:	mov [esi], ecx
+0x6d442c0a:	pop esi
+0x6d442c0b:	leave
+0x6d442c0c:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442c3c[0m
+0x6d442c3c:	sbb eax, eax
+0x6d442c3e:	neg eax
+0x6d442c40:	leave
+0x6d442c41:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442c8c[0m
+0x6d442c8c:	xor eax, eax
+0x6d442c8e:	pop edi
+0x6d442c8f:	pop esi
+0x6d442c90:	leave
+0x6d442c91:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d442d1b[0m
+0x6d442d1b:	mov eax, esi
+0x6d442d1d:	pop esi
+0x6d442d1e:	pop ebx
+0x6d442d1f:	leave
+0x6d442d20:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4430df[0m
+0x6d4430df:	add [edi+5eh], bl
+0x6d4430e2:	pop ebx
+0x6d4430e3:	leave
+0x6d4430e4:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443118[0m
+0x6d443118:	pop edi
+0x6d443119:	pop esi
+0x6d44311a:	pop ebx
+0x6d44311b:	ret 8
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443201[0m
+0x6d443201:	mov [esi], eax
+0x6d443203:	pop esi
+0x6d443204:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443362[0m
+0x6d443362:	add [edi+5eh], bl
+0x6d443365:	pop ebx
+0x6d443366:	leave
+0x6d443367:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44357d[0m
+0x6d44357d:	pop edi
+0x6d44357e:	pop esi
+0x6d44357f:	pop ebx
+0x6d443580:	leave
+0x6d443581:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44364a[0m
+0x6d44364a:	add [edi+5eh], bl
+0x6d44364d:	pop ebx
+0x6d44364e:	leave
+0x6d44364f:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443717[0m
+0x6d443717:	add [edi+5eh], bl
+0x6d44371a:	pop ebx
+0x6d44371b:	leave
+0x6d44371c:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443888[0m
+0x6d443888:	xor eax, eax
+0x6d44388a:	pop esi
+0x6d44388b:	pop ebp
+0x6d44388c:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4438c0[0m
+0x6d4438c0:	xor eax, eax
+0x6d4438c2:	pop esi
+0x6d4438c3:	pop ebp
+0x6d4438c4:	ret 10h
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d443915[0m
+0x6d443915:	pop eax
+0x6d443916:	pop edi
+0x6d443917:	pop esi
+0x6d443918:	pop ebx
+0x6d443919:	leave
+0x6d44391a:	ret 0ch
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44500c[0m
+0x6d44500c:	add ebp, [edx+0dh]
+0x6d44500f:	pop eax
+0x6d445010:	leave
+0x6d445011:	ret 8
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44572d[0m
+0x6d44572d:	pop ecx
+0x6d44572e:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d44573a[0m
+0x6d44573a:	pop ecx
+0x6d44573b:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d4459a5[0m
+0x6d4459a5:	pop ecx
+0x6d4459a6:	mov eax, esi
+0x6d4459a8:	pop esi
+0x6d4459a9:	pop ebx
+0x6d4459aa:	ret 4
+
+./DLLs/jp2ssv.dll gadget: [1m[32m0x6d445c51[0m
+0x6d445c51:	pop ecx
+0x6d445c52:	xor eax, eax
+0x6d445c54:	inc eax
+0x6d445c55:	ret 0ch
+
+Found [1m[32m180[0m gadgets total
+

