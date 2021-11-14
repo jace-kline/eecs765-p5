@@ -1,12 +1,12 @@
 import subprocess
 import sys
 
-gadget = sys.argv[1]
+if len(sys.argv) < 3:
+    print("Usage: python3 findgadget.py GADGET DLL_PATH")
+    exit()
 
-dll_prefix = "./DLLs/"
-dll_names = ["msvcr71.dll"]
-dll_paths = [dll_prefix + dll_name for dll_name in dll_names]
-dll_path = "./DLLs/msvcr71.dll"
+gadget = sys.argv[1]
+dll_path = sys.argv[2]
 
 status, output = subprocess.getstatusoutput(f"sky_search_raw --all -i \"{gadget}\" {dll_path}")
 addresses = [line.split()[0] for line in output.splitlines()[3:]]
