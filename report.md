@@ -24,28 +24,33 @@ Next, open the Internet Explorer 8 application on the victim machine. In the bro
 
 ## Developing the Exploit
 
-Our exploit hinges on the idea of overwriting a record in the SEH chain (exception handler chain) that lives on the stack in Windows operating systems. Each SEH record in this SEH chain has two subsequent 4-byte words of data. The first word is the address of the next record in the SEH chain. The second word is the address of the exception handling procedure that is called when this specific SEH record handles the exception. The idea behind the attack is to create a buffer overflow that causes an exception to be thrown and subsequently the correct SEH record to be overwritten. We aim to overwrite the SEH record contents in such a way that allows us to hijack the execution flow and execute our implanted shellcode.
+
+### Attack Overview
+
+Our exploit involves utilizing memory on both the stack and the heap. With the help of a JavaScript heap spray library, the heap is where we place our shellcode and ROP chain at deterministic locations. We utilize the stack to overflow a vulnerable buffer and ultimately point the stack pointer to the location of the ROP chain on the heap. After this stack flip, our ROP chain allows us to change the permissions of the memory page on the heap to be RWX (read-write-execute) by calling the VirtualProtect() function. Lastly, with an executable heap and the precise knowledge of our shellcode location, we can conclude our ROP chain with a jump to our shellcode.
 
 ### Malicious Input Structure
 
 The malicious input structure used in our attack is shown in the image below.
 
-<img src="https://github.com/jace-kline/eecs765-p4/raw/main/structure.png" width="75%"/>
+<img src="https://github.com/jace-kline/eecs765-p5/raw/main/structure.png" width="75%"/>
 
-As we can see, we must first fill the offset from the start of the buffer to the target SEH record with junk bytes. We choose the 'A' character for these bytes. Next, we append the instruction sequence `NOP; NOP; JMP +4`. This overwrites the first 4-byte word of the target SEH record. Next, we append the address of the `POP; POP; RET` gadget to fill the second word of the SEH record. Lastly, we add 32 bytes of `NOP` instructions and then append the shellcode. The 32 bytes of `NOP` instructions act as padding to prevent the shellcode from expanding and overwriting other parts of our exploit input when decoding occurs.
+
 
 ### Malicious Input Parameters
 
 For this exploit, we require the following parameters:
 
 * System architecture and endianness
-* Offset from the buffer start to the target SEH record that handles our induced exception
-* Address of a `POP; POP; RET` gadget in a shared library (.dll file)
+* Offset from the buffer start to the saved EBP and saved EIP locations
+* Address of gadgets in shared libraries (.dll files)
 * Shellcode parameters: listener host, listener port, and encoding
+* Shellcode address on heap
+* ROP chain address on heap
 
 For this attack, the Windows 7 machine uses the x86 architecture. This implies little-endianness and a 4-byte word length. Hence, the bytes in each word must be reversed in our input.
 
-Finding the offset from the start of the overloaded buffer to the start of the target SEH record required some trial and error. We first sent input of 20000 'A' bytes to cause an exception, and then examined the SEH chain in Windows Debugger to find that we indeed overwrote a SEH record, and thus corrupted the SEH chain. However, we couldn't be sure that this record was associated with the exception handler for the exception we induced. Despite this, we used the `pattern_create` and `pattern_offset` tools in Kali with a pattern length of 20000 to find that the offset from the start of the buffer to this first identified SEH record was 16756 bytes. We assumed that this was the correct offset and proceeded to construct the rest of our input. After an initially unsuccessful exploit, however, we found that examining the SEH chain upon our induced exception showed a SEH record that contained unexpected contents. In fact, the target SEH record contained a byte sequence from our shellcode. We traced backwards through memory from this SEH record until we found our familiar input. We calculated that the offset from the `NOP; NOP; JMP +4` byte sequence to the location of the target SEH record was 180 bytes. Hence, our initial assumption was incorrect about the location of the appropriate SEH record on the stack. It turns out that the appropriate SEH record to overwrite was 180 bytes after the one we had found initially. We updated our offset parameter to be `16756 + 180 = 16936` bytes. This resulted in a successful attack.
+To find the offsets to the saved EBP and saved EIP addresses `pattern_create` and `pattern_offset` tools in Kali with a pattern length of 20000 to find that the offset from the start of the buffer to this first identified SEH record was 16756 bytes. We assumed that this was the correct offset and proceeded to construct the rest of our input. After an initially unsuccessful exploit, however, we found that examining the SEH chain upon our induced exception showed a SEH record that contained unexpected contents. In fact, the target SEH record contained a byte sequence from our shellcode. We traced backwards through memory from this SEH record until we found our familiar input. We calculated that the offset from the `NOP; NOP; JMP +4` byte sequence to the location of the target SEH record was 180 bytes. Hence, our initial assumption was incorrect about the location of the appropriate SEH record on the stack. It turns out that the appropriate SEH record to overwrite was 180 bytes after the one we had found initially. We updated our offset parameter to be `16756 + 180 = 16936` bytes. This resulted in a successful attack.
 
 Overwriting the exception handler function pointer in our exploit requires a variation of the gadget `POP; POP; RET`. This is due to the location of the `ESP` pointer at the time of exception handler invocation pointing to the address 3 words (12 bytes) after the start address of the target SEH record. By performing 2 `POP` instructions, we effectively move the `ESP` pointer back to the address following the `NOP; NOP; JMP +4` bytes. The `RET` instruction then directs execution to this sequence, which results in jumping to our NOP sled and ultimately shellcode, which follows the SEH record. To find this gadget, we started by using Windows Debugger to list all shared libraries used by the Winamp program. We selected a handful of DLL libraries that had ASLR, GS, or DEP disabled. We copied these DLL files to the Kali VM and used the tool `msfpescan` to scan each of these DLLs for `pop _; pop _; ret` gadgets. We only considered gadgets where the arguments to the `pop` instructions were `edi` or `esi`. This is because other registers like `eax` and `ebx` can be used to store program variables and therefore prove to be less stable in most cases. Additionally, we filtered out addresses containing consecutive 0 bytes. Upon recording many candidate addresses across DLLs, we found the address 0x7c37259f in NSCRT.dll to satisfy the conditions. Upon testing this address in our exploit across multiple restarts of the victim VM, this proved to be a stable address for this target gadget.
 
